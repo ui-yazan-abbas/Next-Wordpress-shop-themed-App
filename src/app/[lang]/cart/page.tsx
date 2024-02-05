@@ -1,9 +1,13 @@
-import React from "react";
+import React, { FC } from "react";
+import { locale } from "@/locales";
+import { DEFAULT_LOCALE } from "@/src/middleware";
 
-const Cart = () => {
+const Cart: FC<{ params: { lang: string } }> = ({
+  params: { lang = DEFAULT_LOCALE },
+}) => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      Cart
+      {locale[lang]?.aboutHeader}
     </div>
   );
 };
