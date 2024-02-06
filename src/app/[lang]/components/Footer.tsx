@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="mb-auto bg-neutral-900 w-full text-center text-white">
+    <footer>
       <div className="container px-6 pt-6 mx-auto">
         <div className="mb-6 flex justify-center w-full">
           <div>

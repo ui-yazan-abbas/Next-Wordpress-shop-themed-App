@@ -1,48 +1,62 @@
 "use client";
-import { useState } from "react";
+import Carousel, { ArrowProps } from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import Image from "next/image";
+import { FC, useContext } from "react";
+import { ProductsContext } from "../ProductsContext";
+import Card from "./Card";
+import { ProductsContextType } from "../types";
 
-const Carousel = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
+const RESPONSIVE = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
-  const handleScroll = (scrollOffset: any) => {
-    const container = document.getElementById("carousel-container");
-    const newScrollPosition = scrollPosition + scrollOffset;
-    (container as any).scrollLeft = newScrollPosition;
-    setScrollPosition(newScrollPosition);
-  };
+const CarouselComponent: FC = () => {
+  const {
+    cartProducts,
+    isShopPage,
+    mensProducts = [],
+  } = useContext<ProductsContextType>(ProductsContext);
 
   return (
-    <div
-      id="carousel-container"
-      className="relative overflow-x-auto scrollbar-hide"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+    <Carousel
+      responsive={RESPONSIVE}
+      ssr
+      infinite
+      autoPlay
+      autoPlaySpeed={2000}
+      keyBoardControl
+      transitionDuration={2000}
+      className="m-0 p-0"
     >
-      {/* Cards container */}
-      <div className="flex">
-        {/* Card 1 */}
-        <div className="flex-shrink-0 flex flex-col items-center mx-4">
-          <img
-            src="/image1.jpg"
-            alt="Image 1"
-            className="w-64 h-auto rounded-lg"
+      {mensProducts.map(({ images, name, price, category, reviews, id }) => {
+        return (
+          <Card
+            id={id}
+            name={name}
+            imageSrc={images[0]}
+            category={category}
+            price={price}
+            reviews={reviews}
           />
-          <p className="mt-2 text-center">Description 1</p>
-        </div>
-
-        {/* Card 2 */}
-        <div className="flex-shrink-0 flex flex-col items-center mx-4">
-          <img
-            src="/image2.jpg"
-            alt="Image 2"
-            className="w-64 h-auto rounded-lg"
-          />
-          <p className="mt-2 text-center">Description 2</p>
-        </div>
-      </div>
-    </div>
+        );
+      })}
+    </Carousel>
   );
 };
 
-export default Carousel;
+export default CarouselComponent;

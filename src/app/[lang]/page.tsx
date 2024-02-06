@@ -2,18 +2,14 @@ import { FC } from "react";
 import { locale } from "@/locales";
 import Image from "next/image";
 import { DEFAULT_LOCALE } from "@/src/middleware";
-import Header from "./components/Header";
-import Carousel from "./components/Carousel";
-import Footer from "./components/Footer";
 import { links } from "./constants";
-import Simple from "./components/CRRR";
+import CarouselComponent from "./components/Carousel";
 
 const Home: FC<{ params: { lang: string } }> = ({
   params: { lang = DEFAULT_LOCALE },
 }) => {
   return (
     <main className="flex flex-col items-center justify-between w-full h-screen">
-      <Header lang={lang} />
       <div className="relative w-full">
         <Image
           src={links.mainPageProCombatImage}
@@ -38,7 +34,7 @@ const Home: FC<{ params: { lang: string } }> = ({
       <div className="flex w-full">
         <div className="relative h-min overflow-hidden">
           <Image
-            src={links.mainPageSportWearImage}
+            src={links.mainPageSportswearImage}
             alt="Man climbing mountain ad"
             className="hover:scale-125 transition-all duration-500 cursor-pointer"
             width={1380}
@@ -63,8 +59,8 @@ const Home: FC<{ params: { lang: string } }> = ({
       </div>
 
       <div className="flex w-full">
-        <div className="flex flex-col items-left justify-center gap-4 p-10 w-[800px]">
-          <Simple />
+        <div className="flex flex-col justify-center w-[800px]">
+          <CarouselComponent />
         </div>
         <div className="relative overflow-hidden">
           <Image
@@ -82,8 +78,6 @@ const Home: FC<{ params: { lang: string } }> = ({
           </div>
         </div>
       </div>
-
-      <Footer />
     </main>
   );
 };

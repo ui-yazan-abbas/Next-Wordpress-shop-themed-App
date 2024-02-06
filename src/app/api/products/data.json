@@ -1,0 +1,379 @@
+{
+  "products": [
+    {
+      "footwear": [
+        {
+          "name": "Air Force 1 Crater",
+          "price": "$350.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "id": "1",
+          "category": "Footwear",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+        },
+        {
+          "name": "Air Max 2090",
+          "price": "$350.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Footwear",
+          "id": "2",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_4.jpg.webp"
+          ],
+          "reviews": [
+            { "stars": 5, "reveiw": "Best Shoes I Ever Boat, period." }
+          ]
+        },
+        {
+          "name": "Jordan React Elevation",
+          "price": "$350.00",
+          "id": "3",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Footwear",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 2, "reveiw": "Not Comfy" }]
+        },
+        {
+          "name": "Airi Max",
+          "price": "$46.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Footwear",
+          "id": "4",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 2, "reveiw": "Not Comfy" }]
+        },
+        {
+          "name": "Nike Air",
+          "price": "111$",
+          "id": "5",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Footwear",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/React-Metcon-Training-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/React-Metcon-Training-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/React-Metcon-Training-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/React-Metcon-Training-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Zer0.3 Sneaker",
+          "price": "$30.00",
+          "id": "6",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Footwear",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+        }
+      ],
+      "mens": [
+        {
+          "name": "Top Dri FIT Academy",
+          "price": "$217.21",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "7",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-4.jpg.webp"
+          ],
+          "reviews": [
+            { "stars": 4, "reveiw": "Awesome!!" },
+            { "stars": 5, "reveiw": "very good!" }
+          ]
+        },
+        {
+          "name": "Short Sleeve T-Shirt",
+          "price": "$117.21",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "8",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "EPIC" }]
+        },
+        {
+          "name": "Down Fill",
+          "price": "$259.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "9",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/08/Sportswear-Down-Fill-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/08/Sportswear-Down-Fill-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/08/Sportswear-Down-Fill-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/08/Sportswear-Down-Fill-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Windrunner",
+          "price": "$70.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "10",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 3, "reveiw": "okay..." }]
+        },
+        {
+          "name": "Joggers Tech Fleece",
+          "price": "$98.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "11",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Joggers-Tech-Fleece-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Joggers-Tech-Fleece-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Joggers-Tech-Fleece-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Joggers-Tech-Fleece-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Paris Saint Germain",
+          "price": "$198.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Mens",
+          "id": "12",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+        }
+      ],
+      "womens": [
+        {
+          "name": "Women's Running Jacket",
+          "price": "$180.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "13",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 5, "reveiw": "Amazing!" }]
+        },
+        {
+          "name": "Women's Jacket Down Fill",
+          "price": "$125.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "14",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Jacket-Down-Fill-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Jacket-Down-Fill-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Jacket-Down-Fill-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Jacket-Down-Fill-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Women's Full Zip Hoodie",
+          "price": "$98.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "15",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 3, "reveiw": "okay..." }]
+        },
+        {
+          "name": "Sportswear Windrunner",
+          "price": "$190.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "16",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Sportswear-Windrunner-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Sportswear-Windrunner-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Sportswear-Windrunner-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Sportswear-Windrunner-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Medium Tank Top",
+          "price": "$198.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "17",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 2, "reveiw": "very expensive" }]
+        },
+        {
+          "name": "Fleece Printed Crew",
+          "price": "$110.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Womens",
+          "id": "18",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-3jpg.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-4jpg.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Good" }]
+        }
+      ],
+      "sportswear": [
+        {
+          "name": "Vital Rise Sports Bra",
+          "price": "$180.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "19",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-4.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-2.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Very Nice, Recommend!" }]
+        },
+        {
+          "name": "Fraction Crop Top",
+          "price": "$80.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "20",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-4.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-2.jpg.webp"
+          ],
+          "reviews": [{ "stars": 5, "reveiw": "Awesome!!" }]
+        },
+        {
+          "name": "Pause Joggers Women",
+          "price": "$70.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "21",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Pause-Joggers-women-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Pause-Joggers-women-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Pause-Joggers-women-4.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Pause-Joggers-women-2.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Rise Sports Bra",
+          "price": "$300.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "22",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Rise-sports-bra-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Rise-sports-bra-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Rise-sports-bra-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Rise-sports-bra-4.jpg.webp"
+          ],
+          "reviews": []
+        },
+        {
+          "name": "Pause Hoodie Women",
+          "price": "$190.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "23",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+        },
+        {
+          "name": "Exo Ultra Sports Bra",
+          "price": "$220.00",
+          "material": "The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all year around. Feel better in this sweatshirt because Hanes keeps plastic bottles of landfills by using recycled polyester.7.8 ounce fleece sweatshirt made with up to 5 percent polyester created from recycled plastic.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "category": "Sportswear",
+          "id": "24",
+          "images": [
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-1.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-2.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-3.jpg.webp",
+            "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-4.jpg.webp"
+          ],
+          "reviews": [{ "stars": 1, "reveiw": "Don't Recommend!" }]
+        }
+      ]
+    }
+  ]
+}

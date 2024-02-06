@@ -9,7 +9,7 @@ import { links } from "../constants";
 
 const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {
   const pathname = usePathname();
-  const isShopPage = pathname.includes("/shop");
+  const isShopPage = pathname.includes("/products");
 
   return (
     <header

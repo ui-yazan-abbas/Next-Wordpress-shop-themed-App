@@ -3,17 +3,17 @@ export const links = {
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Logo-dark-1.png.webp",
   brandIconLight:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Logo-white-1.png.webp",
-  sportWearImage:
+  sportswearCategoryImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/5.jpg.webp",
-  footWearImage:
+  footwearCategoryImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/4.jpg.webp",
-  mensWearImage:
+  mensCategoryImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/2.jpg.webp",
-  womensWearImage:
+  womensCategoryImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/1.jpg.webp",
   mainPageProCombatImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/uploads/2020/12/slider5-1.jpg",
-  mainPageSportWearImage:
+  mainPageSportswearImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-1.jpg.webp",
   mainPageMenWearImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-2.jpg.webp",

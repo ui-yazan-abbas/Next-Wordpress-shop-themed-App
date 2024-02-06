@@ -22,7 +22,7 @@ const Nav: FC<{ lang: string; isShopPage: boolean }> = ({
           <Link href={`${href}/`}>{locale[lang].home}</Link>
         </CustomLi>
         <CustomLi isShopPage={isShopPage}>
-          <Link href={`${href}/shop`}>{locale[lang].shop}</Link>
+          <Link href={`${href}/products`}>{locale[lang].shop}</Link>
         </CustomLi>
       </ul>
     </nav>
