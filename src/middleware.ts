@@ -2,8 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-export const DEFAULT_LOCALE = "en";
-const LOCALES = ["en", "ar", "se"];
+export enum LocalesLanguage {
+  EN = "en",
+  AR = "ar",
+}
+export const DEFAULT_LOCALE = LocalesLanguage.EN;
+export const LOCALES = [LocalesLanguage.EN, LocalesLanguage.AR];
 
 function getLocale(request: Request): string {
   const headers = new Headers(request.headers);
@@ -18,19 +22,27 @@ function getLocale(request: Request): string {
 }
 
 export function middleware(request: NextRequest) {
-  let locale = getLocale(request) || DEFAULT_LOCALE;
-  const pathname = request.nextUrl.pathname;
+  const { pathname } = request.nextUrl;
+  const pathnameIsMissingLocale = LOCALES.every(
+    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  );
 
-  const newUrl = new URL(`/${locale}${pathname}`, request.nextUrl);
+  // Redirect if there is no locale
+  if (pathnameIsMissingLocale) {
+    const locale = getLocale(request);
+    const newUrl = `/${locale}${
+      pathname.startsWith("/") ? "" : "/"
+    }${pathname}`;
+    // add handler to weird links
+    if (locale === DEFAULT_LOCALE) {
+      return NextResponse.rewrite(new URL(newUrl, request.url));
+    }
 
-  // e.g. incoming request is /products
-  // The new URL is now /en/products
-  return NextResponse.rewrite(newUrl);
+    return NextResponse.redirect(new URL(newUrl, request.url));
+  }
 }
 
 export const config = {
-  matcher: [
-    // Skip all internal paths (_next)
-    "/((?!api|_next|.*\\..*).*)",
-  ],
+  // Matcher ignoring `/_next/` and `/api/`
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 };
