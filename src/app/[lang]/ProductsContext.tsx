@@ -1,6 +1,5 @@
 import React, { FC, PropsWithChildren, useEffect, useState } from "react";
 import { ProductCategory, ProductsContextType } from "./types";
-import { useSessionStorage } from "./components/useSessionStorage";
 import { fetchProducts } from "./utils";
 
 export const initialSettings = {
@@ -18,10 +17,7 @@ export const ProductsContext = React.createContext<ProductsContextType>({
 });
 
 export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [cartProducts] = useSessionStorage(
-    "cartProducts",
-    initialSettings.cartProducts
-  );
+  const cartProducts = [{ name: "", id: "", image: "", quantity: "" }];
   const [productCategory, setProductCategory] = useState(
     ProductCategory.FOOTWEAR
   );

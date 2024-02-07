@@ -4,6 +4,7 @@ import Image from "next/image";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import { links } from "./constants";
 import CarouselComponent from "./components/Carousel";
+import ZoomOnHoverImage from "./components/ZoomOnHoverImage";
 
 const Home: FC<{ params: { lang: string } }> = ({
   params: { lang = DEFAULT_LOCALE },
@@ -32,15 +33,12 @@ const Home: FC<{ params: { lang: string } }> = ({
       </div>
 
       <div className="flex w-full">
-        <div className="relative h-min overflow-hidden">
-          <Image
-            src={links.mainPageSportswearImage}
-            alt="Man climbing mountain ad"
-            className="hover:scale-125 transition-all duration-500 cursor-pointer"
-            width={1380}
-            height={1000}
-          />
-        </div>
+        <ZoomOnHoverImage
+          src={links.mainPageSportswearImage}
+          alt="Man climbing mountain ad"
+          width={1380}
+          height={1000}
+        />
         <div className="flex flex-col items-left justify-center gap-4 p-10 bg-black w-full">
           <p className="text-white font-bold text-4xl border-b-2 border-red-500">
             {locale[lang].our_stores}
@@ -62,13 +60,12 @@ const Home: FC<{ params: { lang: string } }> = ({
         <div className="flex flex-col justify-center w-[800px]">
           <CarouselComponent />
         </div>
-        <div className="relative overflow-hidden">
-          <Image
+        <div className="relative">
+          <ZoomOnHoverImage
             src={links.mainPageMenWearImage}
-            className="hover:scale-125 transition-all duration-500 cursor-pointer"
             alt="Kid playing basket ball ad"
-            width={1300}
-            height={1100}
+            width={1380}
+            height={1000}
           />
           <div className="absolute flex flex-col gap-4 left-[100px] top-[300px]">
             <div className="p-1 rounded text-white text-7xl">FOR MEN'S.</div>

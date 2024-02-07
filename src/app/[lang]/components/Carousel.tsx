@@ -10,8 +10,8 @@ import { ProductsContextType } from "../types";
 const RESPONSIVE = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    slidesToSlide: 3, // optional, default to 1.
+    items: 2,
+    slidesToSlide: 2, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -26,11 +26,8 @@ const RESPONSIVE = {
 };
 
 const CarouselComponent: FC = () => {
-  const {
-    cartProducts,
-    isShopPage,
-    mensProducts = [],
-  } = useContext<ProductsContextType>(ProductsContext);
+  const { mensProducts = [] } =
+    useContext<ProductsContextType>(ProductsContext);
 
   return (
     <Carousel
@@ -48,7 +45,7 @@ const CarouselComponent: FC = () => {
           <Card
             id={id}
             name={name}
-            imageSrc={images[0]}
+            images={images}
             category={category}
             price={price}
             reviews={reviews}

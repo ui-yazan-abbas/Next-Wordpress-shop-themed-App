@@ -19,7 +19,7 @@ const CategoryImageButton: FC<{ imgSrc: string; label: ProductCategory }> = ({
         alt={label}
         width={150}
         height={150}
-        className="rounded-full border-black uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="hover:scale-125 rounded-full border-black uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
       />
       <p className="text-xl">{label}</p>
     </button>

@@ -27,3 +27,8 @@ footer {
   left: 0;
   bottom: 0;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}

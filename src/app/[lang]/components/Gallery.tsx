@@ -42,7 +42,7 @@ const Gallery = () => {
         <Card
           id={id}
           name={name}
-          imageSrc={images[0]}
+          images={images}
           category={category}
           price={price}
           reviews={reviews}
