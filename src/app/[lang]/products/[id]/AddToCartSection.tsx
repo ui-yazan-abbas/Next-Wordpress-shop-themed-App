@@ -8,6 +8,7 @@ import ShareProduct from "../../components/ShareProduct";
 import { ProductCategory } from "../../types";
 import AddToCartButton from "../../components/AddToCartButton";
 import ProductInfo from "../../components/ProductInfo";
+import { DEFAULT_PRODUCT } from "../../constants";
 
 const AddToCartSection: FC<{ productId: string; lang: string }> = ({
   productId,
@@ -15,15 +16,7 @@ const AddToCartSection: FC<{ productId: string; lang: string }> = ({
 }) => {
   const isDefaultLang = lang === DEFAULT_LOCALE;
   const href = isDefaultLang ? "" : `/${lang}`;
-  const [data, setData] = useState({
-    id: "",
-    name: "",
-    images: [],
-    category: "",
-    price: "",
-    reviews: [],
-    material: "",
-  });
+  const [data, setData] = useState(DEFAULT_PRODUCT);
 
   useEffect(() => {
     fetchProductById(productId).then((res: any) => {
@@ -32,11 +25,11 @@ const AddToCartSection: FC<{ productId: string; lang: string }> = ({
   }, []);
 
   return (
-    <section className="w-full flex">
-      <div className="w-1/2 h-16">
+    <section className="w-full flex pb-8 border-b-[1px]">
+      <div className="w-1/2 h-full">
         <ProductCard name={data.name} images={data.images} />
       </div>
-      <div className="w-1/2 h-16 pt-16">
+      <div className="w-1/2 h-full pt-16">
         <ProductPageNav lang={lang} href={href} productName={data.name} />
         <ProductInfo
           reviews={data.reviews}

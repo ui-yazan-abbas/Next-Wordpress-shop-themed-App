@@ -1,3 +1,5 @@
+import { ProductCategory } from "./types";
+
 export const links = {
   brandIconDark:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Logo-dark-1.png.webp",
@@ -17,4 +19,15 @@ export const links = {
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-1.jpg.webp",
   mainPageMenWearImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-2.jpg.webp",
+};
+
+export const DEFAULT_PRODUCT = {
+  id: "",
+  name: "",
+  images: [],
+  category: ProductCategory.FOOTWEAR,
+  price: "",
+  reviews: [],
+  material: "",
+  description: "",
 };

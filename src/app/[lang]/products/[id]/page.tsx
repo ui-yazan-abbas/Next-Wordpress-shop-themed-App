@@ -8,7 +8,7 @@ const Product: FC<{ params: { id: string; lang: string } }> = ({ params }) => (
   <main className="flex flex-col">
     <Header lang={params.lang} />
     <AddToCartSection productId={params.id} lang={params.lang} />
-    <ReviewsSection productId={params.id} />
+    <ReviewsSection productId={params.id} lang={params.lang} />
   </main>
 );
 
