@@ -8,6 +8,8 @@ export enum ProductCategory {
 export type Review = {
   stars: number;
   review: string;
+  user: string;
+  formatted_date: string;
 };
 
 export type CartProduct = {

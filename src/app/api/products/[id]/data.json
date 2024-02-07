@@ -12,7 +12,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Force-1-Crater-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Air Max 2090",
@@ -27,7 +34,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Air-Max-2090_4.jpg.webp"
     ],
-    "reviews": [{ "stars": 5, "reveiw": "Best Shoes I Ever Boat, period." }]
+    "reviews": [
+      {
+        "stars": 5,
+        "review": "Best Shoes I Ever Boat, period.",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Jordan React Elevation",
@@ -42,7 +56,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Jordan-React-Elevation-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 2, "reveiw": "Not Comfy" }]
+    "reviews": [
+      {
+        "stars": 2,
+        "review": "Not Comfy",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Airi Max",
@@ -57,7 +78,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Mens-Shoe-Airi-max-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 2, "reveiw": "Not Comfy" }]
+    "reviews": [
+      {
+        "stars": 2,
+        "review": "Not Comfy",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Nike Air",
@@ -87,7 +115,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/04/Zer0.3-Sneaker-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
 
   {
@@ -104,8 +139,8 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-4.jpg.webp"
     ],
     "reviews": [
-      { "stars": 4, "reveiw": "Awesome!!" },
-      { "stars": 5, "reveiw": "very good!" }
+      { "stars": 4, "review": "Awesome!!" },
+      { "stars": 5, "review": "very good!" }
     ]
   },
   {
@@ -121,7 +156,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Short-Sleeve-T-Shirt-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "EPIC" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "EPIC",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Down Fill",
@@ -151,7 +193,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2018/05/Down-Fill-Windrunner-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 3, "reveiw": "okay..." }]
+    "reviews": [
+      {
+        "stars": 3,
+        "review": "okay...",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Joggers Tech Fleece",
@@ -181,7 +230,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2017/12/Paris-Saint-Germain-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
 
   {
@@ -197,7 +253,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Running-Jacket-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 5, "reveiw": "Amazing!" }]
+    "reviews": [
+      {
+        "stars": 5,
+        "review": "Amazing!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Women's Jacket Down Fill",
@@ -227,7 +290,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Womens-Full-Zip-Hoodie-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 3, "reveiw": "okay..." }]
+    "reviews": [
+      {
+        "stars": 3,
+        "review": "okay...",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Sportswear Windrunner",
@@ -257,7 +327,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Medium-Support-Bra-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 2, "reveiw": "very expensive" }]
+    "reviews": [
+      {
+        "stars": 2,
+        "review": "very expensive",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Fleece Printed Crew",
@@ -272,7 +349,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-3jpg.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Fleece-Printed-Crew-4jpg.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Good" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Good",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
 
   {
@@ -288,7 +372,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-4.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/vital-rise-sports-bra-2.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Very Nice, Recommend!" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Very Nice, Recommend!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Fraction Crop Top",
@@ -303,7 +394,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-4.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/fraction-crop-top-2.jpg.webp"
     ],
-    "reviews": [{ "stars": 5, "reveiw": "Awesome!!" }]
+    "reviews": [
+      {
+        "stars": 5,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Pause Joggers Women",
@@ -348,7 +446,14 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/pause-hoodie-women-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 4, "reveiw": "Awesome!!" }]
+    "reviews": [
+      {
+        "stars": 4,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   },
   {
     "name": "Exo Ultra Sports Bra",
@@ -363,6 +468,13 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-3.jpg.webp",
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/exo-ultra-sports-bra-4.jpg.webp"
     ],
-    "reviews": [{ "stars": 1, "reveiw": "Don't Recommend!" }]
+    "reviews": [
+      {
+        "stars": 1,
+        "review": "Don't Recommend!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
+    ]
   }
 ]
