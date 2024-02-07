@@ -18,7 +18,7 @@ const Shop: FC<{ params: { lang: string } }> = ({
       <Header lang={lang} />
 
       <div className="flex flex-col items-center border-b-2 mb-7 w-full">
-        <div className="text-7xl mt-10">{locale[lang].shop}</div>
+        <div className="text-5xl sm:text-7xl mt-10">{locale[lang].shop}</div>
         <ShopNav href={href} lang={lang} />
         <CategoryImageButtons />
       </div>

@@ -17,11 +17,11 @@ const CategoryImageButton: FC<{ imgSrc: string; label: ProductCategory }> = ({
       <Image
         src={imgSrc}
         alt={label}
-        width={150}
-        height={150}
+        width={120}
+        height={120}
         className="hover:scale-125 rounded-full border-black uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
       />
-      <p className="text-xl">{label}</p>
+      <p className="text-lg sm:text-xl">{label}</p>
     </button>
   );
 };

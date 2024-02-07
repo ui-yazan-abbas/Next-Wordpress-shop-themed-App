@@ -6,8 +6,6 @@ import { ProductsContextType } from "../types";
 
 const CategoryFilter = () => {
   const {
-    cartProducts,
-    isShopPage,
     mensProducts = [],
     womensProducts = [],
     sportswearProducts = [],
@@ -15,7 +13,7 @@ const CategoryFilter = () => {
   } = useContext<ProductsContextType>(ProductsContext);
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="hidden sm:flex flex-col  gap-2">
       <p className="text-xl border-b-2">Categories</p>
       <CategoryButton
         itemsCount={mensProducts.length}
