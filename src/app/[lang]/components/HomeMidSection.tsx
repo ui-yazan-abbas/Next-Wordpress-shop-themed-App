@@ -5,7 +5,7 @@ import { locale } from "@/locales";
 
 const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
   return (
-    <div className="flex w-full h-full">
+    <div className="flex flex-col-reverse sm:flex-row w-full h-full">
       <ZoomOnHoverImage
         src={links.mainPageSportswearImage}
         alt="Man climbing mountain ad"
@@ -23,7 +23,7 @@ const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
         <p className="text-gray-400 text-sm font-sans">
           {locale[lang].stores_desc}
         </p>
-        <button className="w-[130px] h-[40px] bg-transparent border border-gray-400 text-white px-4 py-2 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
+        <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-white text-white hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
           {locale[lang].shop_now}
         </button>
       </div>

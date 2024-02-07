@@ -4,22 +4,24 @@ import { links } from "../constants";
 import { locale } from "@/locales";
 
 const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
-  <div className="relative w-full h-full">
+  <div className="relative w-full">
     <Image
       src={links.mainPageProCombatImage}
       alt="Pro Combat Wear Add"
       width={2600}
       height={2600}
     />
-    <div className="absolute flex flex-col gap-4 left-20 bottom-20">
-      <p className="text-6xl font-extrabold">{locale[lang].twenty_four}</p>
-      <p className="p-1 w-[290px] text-white bg-black text-7xl w-18 flex-nowrap">
+    <div className="absolute flex flex-col gap-1 sm:gap-3 md:gap-4 left-10 bottom-10">
+      <p className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl">
+        {locale[lang].twenty_four}
+      </p>
+      <p className="w-[65px] sm:w-[200px] md:w-[275px] lg:w-[370px] text-1xl sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black  w-18 flex-nowrap">
         {locale[lang].pro_combat}
       </p>
-      <p className="p-1 rounded text-white bg-black text-7xl">
+      <p className="text-lg sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black ">
         {locale[lang].base_layer}
       </p>
-      <button className="w-[120px] h-[40px] bg-transparent border border-red-500 text-red-500 px-4 py-2 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
+      <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-red-500 text-red-500 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
         {locale[lang].shop_now}
       </button>
     </div>

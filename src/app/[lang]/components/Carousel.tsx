@@ -26,7 +26,7 @@ const RESPONSIVE = {
 };
 
 const CarouselComponent: FC = () => {
-  const { mensProducts = [] } =
+  const { sportswearProducts = [] } =
     useContext<ProductsContextType>(ProductsContext);
 
   return (
@@ -35,13 +35,14 @@ const CarouselComponent: FC = () => {
       ssr
       infinite
       autoPlay
-      autoPlaySpeed={2000}
+      autoPlaySpeed={3000}
       keyBoardControl
-      transitionDuration={2000}
+      transitionDuration={3000}
+      arrows={false} // true by default
       className="m-0 p-0"
     >
-      {mensProducts.map(({ images, name, price, category, reviews, id }) => {
-        return (
+      {sportswearProducts.map(
+        ({ images, name, price, category, reviews, id }) => (
           <Card
             key={id}
             id={id}
@@ -51,8 +52,8 @@ const CarouselComponent: FC = () => {
             price={price}
             reviews={reviews}
           />
-        );
-      })}
+        )
+      )}
     </Carousel>
   );
 };

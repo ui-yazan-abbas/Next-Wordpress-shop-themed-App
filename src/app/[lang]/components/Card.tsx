@@ -28,8 +28,8 @@ const Card: FC<{
         <Image
           alt={name}
           src={isHovered ? images[1] : images[0]}
-          height={1000}
-          width={1000}
+          height={600}
+          width={400}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />
