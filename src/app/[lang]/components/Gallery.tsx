@@ -38,6 +38,7 @@ const Gallery = () => {
     <div className="grid grid-cols-3 gap-4">
       {products.map(({ images, name, price, reviews, category, id }) => (
         <Card
+          key={id}
           id={id}
           name={name}
           images={images}

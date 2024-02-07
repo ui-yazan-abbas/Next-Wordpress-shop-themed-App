@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { FC, useState } from "react";
-import { FaStar } from "react-icons/fa";
 import { Review } from "../types";
 import Link from "next/link";
 import StarsReview from "./StarsReview";
@@ -24,7 +23,7 @@ const Card: FC<{
   };
 
   return (
-    <div key={name} className="flex flex-col p-4 gap-1">
+    <div className="flex flex-col p-4 gap-1">
       <Link href={`/products/${id}`}>
         <Image
           alt={name}

@@ -9,7 +9,7 @@ const Nav: FC<{ lang: string; isShopPage: boolean }> = ({
   isShopPage = false,
 }) => {
   const isDefaultLang = lang === DEFAULT_LOCALE;
-  const href = isDefaultLang ? "" : `/${lang}`;
+  const href = isDefaultLang ? "" : `${lang}`;
 
   return (
     <nav>
@@ -19,7 +19,7 @@ const Nav: FC<{ lang: string; isShopPage: boolean }> = ({
         }`}
       >
         <CustomLi isShopPage={isShopPage}>
-          <Link href={`${href}/`}>{locale[lang].home}</Link>
+          <Link href={`/${href}`}>{locale[lang].home}</Link>
         </CustomLi>
         <CustomLi isShopPage={isShopPage}>
           <Link href={`${href}/products`}>{locale[lang].shop}</Link>

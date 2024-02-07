@@ -1,11 +1,11 @@
 "use client";
-import Carousel, { ArrowProps } from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import Image from "next/image";
 import { FC, useContext } from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 import { ProductsContext } from "../ProductsContext";
-import Card from "./Card";
 import { ProductsContextType } from "../types";
+import Card from "./Card";
 
 const RESPONSIVE = {
   desktop: {
@@ -43,6 +43,7 @@ const CarouselComponent: FC = () => {
       {mensProducts.map(({ images, name, price, category, reviews, id }) => {
         return (
           <Card
+            key={id}
             id={id}
             name={name}
             images={images}

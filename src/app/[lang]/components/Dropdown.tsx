@@ -53,7 +53,7 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
       onClick={toggleDropdown}
       className={`text-xs ${
         isShopPage ? "text-black" : "text-white"
-      } px-4 py-2 hover:text-red-500 w-38`}
+      } px-2 hover:text-red-500 w-38`}
     >
       {locale[lang].language}
       {renderDropdown}
