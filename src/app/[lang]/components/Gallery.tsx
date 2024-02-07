@@ -6,8 +6,6 @@ import { Product, ProductCategory, ProductsContextType } from "../types";
 
 const Gallery = () => {
   const {
-    cartProducts,
-    isShopPage,
     mensProducts = [],
     womensProducts = [],
     sportswearProducts = [],
