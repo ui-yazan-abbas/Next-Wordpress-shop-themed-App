@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { links } from "../constants";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 import { locale } from "@/locales";
+import Link from "next/link";
 
 const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
   return (
@@ -23,9 +24,11 @@ const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
         <p className="text-gray-400 text-sm font-sans">
           {locale[lang].stores_desc}
         </p>
-        <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-white text-white hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
-          {locale[lang].shop_now}
-        </button>
+        <Link href="/products">
+          <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-white text-white hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
+            {locale[lang].shop_now}
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -30,4 +30,7 @@ export const DEFAULT_PRODUCT = {
   reviews: [],
   material: "",
   description: "",
+  qty: 0,
 };
+
+const DEFAULT_CART_PRODUCT = [{ name: "", id: "", image: "", quantity: "" }];

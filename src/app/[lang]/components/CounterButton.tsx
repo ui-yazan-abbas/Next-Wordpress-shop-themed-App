@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { FC } from "react";
 
-const CounterButton = () => {
-  const [count, setCount] = useState(1);
-
+const CounterButton: FC<{
+  setCount: React.Dispatch<React.SetStateAction<number>>;
+  count: number;
+}> = ({ count, setCount }) => {
   const increment = () => {
     setCount(count + 1);
   };

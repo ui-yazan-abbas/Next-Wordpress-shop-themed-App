@@ -12,13 +12,6 @@ export type Review = {
   formatted_date: string;
 };
 
-export type CartProduct = {
-  name: string;
-  id: string;
-  image: string;
-  quantity: string;
-};
-
 export interface Product {
   name: string;
   price: string;
@@ -28,6 +21,7 @@ export interface Product {
   category: ProductCategory;
   images: string[];
   reviews?: Review[];
+  qty: number;
 }
 
 export type ProductsContextType = {
@@ -37,10 +31,12 @@ export type ProductsContextType = {
   sportswearProducts?: Product[];
   isShopPage?: boolean;
   isDefaultLang?: boolean;
-  cartProducts?: CartProduct[];
   productCategory?: ProductCategory;
   setProductCategory?:
     | React.Dispatch<React.SetStateAction<ProductCategory>>
     | undefined;
-  setcartProducts?: React.Dispatch<React.SetStateAction<number>> | undefined;
+  isShowCart?: boolean;
+  setIsShowCart?: React.Dispatch<React.SetStateAction<boolean>> | undefined;
+  cartProducts?: Product[];
+  setCartProducts?: React.Dispatch<React.SetStateAction<Product[]>> | undefined;
 };

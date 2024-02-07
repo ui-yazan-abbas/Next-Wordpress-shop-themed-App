@@ -26,9 +26,9 @@ const RESPONSIVE = {
 };
 
 const CarouselComponent: FC = () => {
-  const { sportswearProducts = [] } =
+  const { sportswearProducts = [], isShowCart } =
     useContext<ProductsContextType>(ProductsContext);
-
+  console.log("isShowCart", isShowCart);
   return (
     <Carousel
       responsive={RESPONSIVE}

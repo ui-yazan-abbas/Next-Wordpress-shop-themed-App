@@ -36,7 +36,7 @@ const AddToCartSection: FC<{ productId: string; lang: string }> = ({
           price={data.price}
           name={data.name}
         />
-        <AddToCartButton material={data.material} lang={lang} />
+        <AddToCartButton product={data} lang={lang} />
         <ShareProduct category={data.category as ProductCategory} lang={lang} />
       </div>
     </section>

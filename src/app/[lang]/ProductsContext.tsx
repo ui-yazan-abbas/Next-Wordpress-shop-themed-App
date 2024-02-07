@@ -1,5 +1,5 @@
 import React, { FC, PropsWithChildren, useEffect, useState } from "react";
-import { ProductCategory, ProductsContextType } from "./types";
+import { Product, ProductCategory, ProductsContextType } from "./types";
 import { fetchProducts } from "./utils";
 
 export const initialSettings = {
@@ -17,7 +17,8 @@ export const ProductsContext = React.createContext<ProductsContextType>({
 });
 
 export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const cartProducts = [{ name: "", id: "", image: "", quantity: "" }];
+  const [cartProducts, setCartProducts] = useState<Product[]>([]);
+  const [isShowCart, setIsShowCart] = useState(false);
   const [productCategory, setProductCategory] = useState(
     ProductCategory.FOOTWEAR
   );
@@ -41,6 +42,9 @@ export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
     <ProductsContext.Provider
       value={{
         cartProducts,
+        setCartProducts,
+        isShowCart,
+        setIsShowCart,
         footwearProducts,
         sportswearProducts,
         mensProducts,

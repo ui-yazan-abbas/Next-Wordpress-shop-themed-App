@@ -1,7 +1,8 @@
 import React, { FC } from "react";
 import Image from "next/image";
-import { links } from "../constants";
+import Link from "next/link";
 import { locale } from "@/locales";
+import { links } from "../constants";
 
 const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
   <div className="relative w-full">
@@ -21,9 +22,11 @@ const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
       <p className="text-lg sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black ">
         {locale[lang].base_layer}
       </p>
-      <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-red-500 text-red-500 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
-        {locale[lang].shop_now}
-      </button>
+      <Link href="/products">
+        <button className="w-[100px] h-[30px] md:w-[140px] md:h-[50px] lg:w-[160px] lg:h-[70px]  text-sm sm:text-md md:text-xl bg-transparent border border-red-500 text-red-500 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300">
+          {locale[lang].shop_now}
+        </button>
+      </Link>
     </div>
   </div>
 );
