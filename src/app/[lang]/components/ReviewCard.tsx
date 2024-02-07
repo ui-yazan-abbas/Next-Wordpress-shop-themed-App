@@ -9,10 +9,10 @@ const ReviewCard: FC<{ reviews: Review[] }> = ({ reviews }) =>
           <div className="flex justify-between border-[1px] items-center p-8">
             <div>
               <p className="text-lg font-sans text-neutral-500">{review}</p>
-              <p className="text-sm pt-2 font-sans">
+              <p className="text-xs pt-2 font-sans">
                 User: <span className="text-neutral-500">{user}</span>
               </p>
-              <p className="text-sm pt-2 font-sans">
+              <p className="text-xs pt-2 font-sans">
                 Date: <span className="text-neutral-500">{formatted_date}</span>
               </p>
             </div>

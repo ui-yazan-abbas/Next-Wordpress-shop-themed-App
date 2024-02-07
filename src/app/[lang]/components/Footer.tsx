@@ -3,8 +3,8 @@ import ShareLinks from "./ShareLinks";
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="bg-black bg-opacity-40 flex justify-around items-center">
-      <div className="p-4 text-center ">
+    <footer className="bg-gray-800 flex justify-around items-center">
+      <div className="p-4 text-center text-red-500">
         © 2024 Copyright:
         <a
           className="text-white"
@@ -12,7 +12,7 @@ export default function Footer(): JSX.Element {
           target="_blank"
           rel="noopener noreferrer"
         >
-          WeBook
+          &nbsp; WeBook
         </a>
       </div>
       <ShareLinks />

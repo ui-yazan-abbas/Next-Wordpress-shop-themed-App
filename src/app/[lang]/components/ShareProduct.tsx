@@ -15,7 +15,7 @@ const ShareProduct: FC<{ category: ProductCategory; lang: string }> = ({
 
       <div className="flex gap-3">
         <label className="font-sans text-sm text-neutral-400">Share:</label>
-        <ShareLinks />
+        <ShareLinks isProductPage />
       </div>
     </div>
   );

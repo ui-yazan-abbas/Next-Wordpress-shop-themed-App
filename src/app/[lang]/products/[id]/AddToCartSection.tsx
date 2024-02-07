@@ -25,11 +25,11 @@ const AddToCartSection: FC<{ productId: string; lang: string }> = ({
   }, []);
 
   return (
-    <section className="w-full flex pb-8 border-b-[1px]">
-      <div className="w-1/2 h-full">
+    <section className="w-full flex flex-col sm:flex-row pb-8 border-b-[1px]">
+      <div className="w-full h-full">
         <ProductCard name={data.name} images={data.images} />
       </div>
-      <div className="w-1/2 h-full pt-16">
+      <div className="w-full h-full pt-10 sm:pt-24">
         <ProductPageNav lang={lang} href={href} productName={data.name} />
         <ProductInfo
           reviews={data.reviews}
