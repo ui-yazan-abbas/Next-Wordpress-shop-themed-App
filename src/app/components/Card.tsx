@@ -21,7 +21,7 @@ const Card: FC<{
   const handleMouseLeave = () => setIsHovered(false);
 
   return (
-    <div className="flex flex-col p-4 gap-1">
+    <div className="flex max-w-[434px] flex-col p-4 gap-1">
       <Link href={`/products/${id}`}>
         <Image
           alt={name}

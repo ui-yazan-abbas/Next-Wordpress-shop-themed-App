@@ -1,15 +1,14 @@
 import React, { FC, PropsWithChildren } from "react";
 
-const ShareLink: FC<PropsWithChildren<{ isProductPage?: boolean }>> = ({
-  children,
-  isProductPage = false,
-}) => (
+const ShareLink: FC<
+  PropsWithChildren<{ isProductPage?: boolean; link: string }>
+> = ({ children, isProductPage = false, link }) => (
   <a
     type="button"
     className={`h-4 w-4 ${
       isProductPage ? "text-black" : "text-white"
     } hover:text-red-500`}
-    href="https://facebook.com/"
+    href={link}
     target="_blank"
     rel="noopener noreferrer"
   >

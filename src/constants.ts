@@ -20,6 +20,9 @@ export const LINKS = {
   mainPageMenWearImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-2.jpg.webp",
   cart_empty_state: "https://i.ibb.co/BGZgDVw/empty-state.png",
+  facebook: "https://facebook.com/",
+  twitter: "https://twitter.com/",
+  instagram: "https://instagram.com/",
 };
 
 export const DEFAULT_PRODUCT = {
