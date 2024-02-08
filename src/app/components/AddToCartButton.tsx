@@ -1,5 +1,5 @@
 "use client";
-import React, { FC, useCallback, useContext } from "react";
+import React, { FC, MouseEventHandler, useCallback, useContext } from "react";
 
 import { Product, ProductsContextType } from "@/src/types";
 import { DEFAULT_PRODUCT_COUNT } from "@/src/constants";
@@ -17,19 +17,15 @@ const AddToCartButton: FC<{ product: Product; lang: string }> = ({
     productCount = 1,
   } = useContext<ProductsContextType>(ProductsContext);
 
-  const addProductToCart = useCallback(() => {
-    // Check if the product already exists in the cart
-    const existingProductIndex = cartProducts.findIndex(
-      (item) => item.id === product.id
-    );
+  const addProductToCart = useCallback<
+    MouseEventHandler<HTMLButtonElement>
+  >((): void => {
+    const existingProduct = cartProducts.find((item) => item.id === product.id);
 
-    if (existingProductIndex !== -1) {
-      // If the product exists, update its quantity
-      const updatedCartProducts = [...cartProducts];
-      updatedCartProducts[existingProductIndex].qty += productCount;
-      setCartProducts?.(updatedCartProducts);
+    if (existingProduct) {
+      existingProduct.qty += productCount;
+      setCartProducts?.([...cartProducts]);
     } else {
-      // If the product doesn't exist, add it to the cart
       setCartProducts?.([...cartProducts, { ...product, qty: productCount }]);
     }
 
