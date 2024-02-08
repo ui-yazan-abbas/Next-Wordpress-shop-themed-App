@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Product } from "../types";
 
 const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => (
-  <li className="flex py-6">
+  <li className="flex p-6">
     <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
       <Image
         src={cartProduct?.images?.[0]}

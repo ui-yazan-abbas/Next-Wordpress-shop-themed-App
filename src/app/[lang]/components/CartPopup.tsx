@@ -31,7 +31,7 @@ const CartPopup: FC<{ lang: string }> = () => {
                 {!!cartProducts.length ? (
                   <CartProducts />
                 ) : (
-                  <div className="flex items-center justify-center mb-20">
+                  <div className="flex items-center justify-center sm:mt-20">
                     <Image
                       src={LINKS.cart_empty_state}
                       width={300}

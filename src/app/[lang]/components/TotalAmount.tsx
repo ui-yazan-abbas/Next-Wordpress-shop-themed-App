@@ -16,7 +16,7 @@ const TotalAmount: FC = () => {
   );
 
   return (
-    <div className="sticky bottom-0 bg-white border-t border-gray-200 px-4 py-6 sm:px-6">
+    <div className="absolute w-[380px]  sm:w-[448px] bottom-0 bg-white border-t border-gray-200 px-4 py-6 sm:px-6">
       <div className="flex justify-between text-base font-medium text-gray-900">
         <p>Subtotal</p>
         <p className={isEmptyCart ? "text-neutral-200" : ""}>${totalAmount}</p>

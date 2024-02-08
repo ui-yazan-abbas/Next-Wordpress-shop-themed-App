@@ -8,7 +8,7 @@ const CartHeader: FC = () => {
   const { setIsShowCart } = useContext<ProductsContextType>(ProductsContext);
 
   return (
-    <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
+    <div className="border-b-[1px] px-4 py-6 sm:px-6">
       <div className="flex items-start justify-between">
         <h2 className="text-lg font-medium text-gray-900" id="slide-over-title">
           Shopping cart
