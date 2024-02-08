@@ -1,27 +1,22 @@
 import React, { FC, useContext } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { DEFAULT_LOCALE, LOCALES } from "@/src/constants";
 import { locale } from "@/locales";
 
-import { ProductsContextType } from "@/src/types";
+import { LocalesLanguage, ProductsContextType } from "@/src/types";
 import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
   lang = DEFAULT_LOCALE,
   isShopPage = false,
 }) => {
-  const { isLangDropdownOpen, setIsLangDropdownOpen, pathname } =
+  const { isLangDropdownOpen, setIsLangDropdownOpen } =
     useContext<ProductsContextType>(ProductsContext);
+  const pathname = usePathname();
 
   const toggleDropdown = () => setIsLangDropdownOpen?.(!isLangDropdownOpen);
-
-  const redirectedPathName = (locale: string) => {
-    if (!pathname) return "/";
-    const segments = pathname.split("/");
-    segments[1] = locale;
-    return `/${segments[1]}`;
-  };
 
   return (
     <button
@@ -46,7 +41,13 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
               } hover:text-red-500 cursor-pointer`}
               onClick={toggleDropdown}
             >
-              <Link href={redirectedPathName(localFile)}>
+              <Link
+                href={
+                  localFile === LocalesLanguage.AR
+                    ? `/${LocalesLanguage.AR}`
+                    : "/"
+                }
+              >
                 {locale[lang][localFile]}
               </Link>
             </li>

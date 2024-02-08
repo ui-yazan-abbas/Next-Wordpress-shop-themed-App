@@ -2,11 +2,18 @@
 import React, { FC, PropsWithChildren, useState } from "react";
 import { usePathname } from "next/navigation";
 
-import { Product, ProductCategory, ProductsContextType } from "@/src/types";
+import {
+  LocalesLanguage,
+  Product,
+  ProductCategory,
+  ProductsContextType,
+} from "@/src/types";
 import { DEFAULT_PRODUCT_COUNT } from "@/src/constants";
 
 export const initialSettings = {
   cartProducts: [],
+  langNavHref: LocalesLanguage.EN,
+  lang: LocalesLanguage.EN,
 };
 
 export const ProductsContext = React.createContext<ProductsContextType>({
@@ -15,6 +22,10 @@ export const ProductsContext = React.createContext<ProductsContextType>({
 
 export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
   const pathname = usePathname();
+  const isArabicLang = pathname.includes(`/${LocalesLanguage.AR}`);
+  const langNavHref = isArabicLang ? LocalesLanguage.AR : "";
+  const lang = isArabicLang ? LocalesLanguage.AR : LocalesLanguage.EN;
+
   const [cartProducts, setCartProducts] = useState<Product[]>([]);
   const [isShowCart, setIsShowCart] = useState(false);
   const [productCategory, setProductCategory] = useState(
@@ -37,7 +48,9 @@ export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
         setProductCount,
         isLangDropdownOpen,
         setIsLangDropdownOpen,
-        pathname,
+        isArabicLang,
+        langNavHref,
+        lang,
       }}
     >
       {children}

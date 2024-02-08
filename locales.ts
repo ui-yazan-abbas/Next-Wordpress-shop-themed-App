@@ -14,6 +14,12 @@ interface LocaleEntry {
   pro_combat: string;
   high_performance: string;
   stores_desc: string;
+  for_mens: string;
+  men: string;
+  women: string;
+  sport: string;
+  footwear: string;
+  categories: string;
 }
 
 export const locale: Record<string, LocaleEntry> = {
@@ -25,7 +31,7 @@ export const locale: Record<string, LocaleEntry> = {
     en: "English",
     ar: "العربية",
     twenty_four: "2 0 2 4",
-    our_stores: "OUR STORES",
+    our_stores: "OUR STORES.",
     base_layer: "BASELAYER COLLECTION",
     shop_now: "SHOP NOW",
     pro_combat: "PRO COMBAT",
@@ -34,6 +40,12 @@ export const locale: Record<string, LocaleEntry> = {
       "One of the best in the buisness of online stores we sell high quality products. our Customers Satisfaction",
     home_title_case: "Home",
     shop_title_case: "Shop",
+    for_mens: "For Men's.",
+    men: "Mens",
+    women: "Womens",
+    sport: "Sportswear",
+    footwear: "Footwear",
+    categories: "Categories",
   },
   ar: {
     home: "الصفحة الرئيسية",
@@ -42,16 +54,22 @@ export const locale: Record<string, LocaleEntry> = {
     language: "اللغة",
     en: "الانجليزية",
     ar: "العربية",
-    twenty_four: "٢ ٠ ٢ ٤",
-    our_stores: "متاجرنا",
-    base_layer: "مجموعة الأساس",
-    shop_now: "تبضع",
-    pro_combat: "قتال محترف",
+    twenty_four: "2 0 2 4",
+    our_stores: ".متاجرنا",
+    base_layer: "المجموعة الأساسية",
+    shop_now: "تسوق الآن",
+    pro_combat: "منافسات المحترفين",
     high_performance:
       "أحد أفضل المتاجر عبر الإنترنت، حيث نبيع منتجات عالية الجودة. رضا عملائنا",
     stores_desc:
       "أحد أفضل المتاجر عبر الإنترنت، حيث نبيع منتجات عالية الجودة. رضا عملائنا",
     home_title_case: "الصفحة الرئيسية",
     shop_title_case: "المتجر",
+    for_mens: ".إلى الرجال",
+    men: "رجالي",
+    women: "نسائي",
+    sport: "رياضي",
+    footwear: "أحذية",
+    categories: "الفئات",
   },
 };

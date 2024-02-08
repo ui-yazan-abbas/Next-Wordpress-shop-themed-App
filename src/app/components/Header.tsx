@@ -2,13 +2,13 @@
 import { FC } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 import { DEFAULT_LOCALE } from "@/src/constants";
 import { LINKS } from "@/src/constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
 import CartComponent from "./CartComponent";
-import Link from "next/link";
 
 const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {
   const pathname = usePathname();

@@ -56,5 +56,7 @@ export type ProductsContextType = {
     | undefined;
   productCount?: number;
   setProductCount?: React.Dispatch<React.SetStateAction<number>> | undefined;
-  pathname?: string;
+  isArabicLang?: boolean;
+  langNavHref: string;
+  lang: LocalesLanguage;
 };

@@ -17,7 +17,7 @@ const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
       <p className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl">
         {locale[lang].twenty_four}
       </p>
-      <p className="w-[65px] sm:w-[200px] md:w-[275px] lg:w-[370px] text-1xl sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black  w-18 flex-nowrap">
+      <p className="w-[75px] sm:w-[220px] md:w-[335px] lg:w-[390px] text-1xl sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black  w-18 flex-nowrap">
         {locale[lang].pro_combat}
       </p>
       <p className="text-lg sm:text-5xl md:text-7xl lg:text-8xl text-white bg-black ">

@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
+import { LocalesLanguage } from "@/src/types";
 import { DEFAULT_LOCALE } from "@/src/constants";
 import { locale } from "@/locales";
 
@@ -10,8 +12,9 @@ const Nav: FC<{ lang: string; isShopPage: boolean }> = ({
   lang = DEFAULT_LOCALE,
   isShopPage = false,
 }) => {
-  const isDefaultLang = lang === DEFAULT_LOCALE;
-  const href = isDefaultLang ? "" : `${lang}`;
+  const pathname = usePathname();
+  const isArabicLang = pathname.includes(`/${LocalesLanguage.AR}`);
+  const href = isArabicLang ? LocalesLanguage.AR : "";
 
   return (
     <nav>
