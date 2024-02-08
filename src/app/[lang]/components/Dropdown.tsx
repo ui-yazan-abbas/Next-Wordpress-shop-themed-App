@@ -20,7 +20,7 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
     if (!pathname) return "/";
     const segments = pathname.split("/");
     segments[1] = locale;
-    return segments.join("/");
+    return `/${segments[1]}`;
   };
 
   return (
