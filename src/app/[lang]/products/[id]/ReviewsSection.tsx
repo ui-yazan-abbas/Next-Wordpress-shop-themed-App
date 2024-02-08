@@ -1,10 +1,9 @@
-"use clieant";
+"use client";
 import React, { FC, useEffect, useState } from "react";
 import { fetchProductById } from "../../utils";
 import { DEFAULT_PRODUCT } from "../../constants";
 import UnderLinedButton from "../../components/UnderLinedButton";
 import { Product, Review } from "../../types";
-import StarsReview from "../../components/StarsReview";
 import ReviewCard from "../../components/ReviewCard";
 
 const ReviewsSection: FC<{ productId: string; lang: string }> = ({

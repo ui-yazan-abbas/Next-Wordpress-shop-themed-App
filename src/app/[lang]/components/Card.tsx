@@ -14,13 +14,9 @@ const Card: FC<{
 }> = ({ name, id, images, category, price, reviews = [] }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
+  const handleMouseEnter = () => setIsHovered(true);
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+  const handleMouseLeave = () => setIsHovered(false);
 
   return (
     <div className="flex flex-col p-4 gap-1">

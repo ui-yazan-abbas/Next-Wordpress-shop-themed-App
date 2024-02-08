@@ -6,8 +6,6 @@ import { DEFAULT_LOCALE } from "@/src/middleware";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
 import { links } from "../constants";
-import CartIcon from "./CartIcon";
-import CartPopup from "./CartPopup";
 import CartComponent from "./CartComponent";
 
 const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {

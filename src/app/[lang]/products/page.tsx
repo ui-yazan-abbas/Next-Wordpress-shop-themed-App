@@ -5,6 +5,19 @@ import CategoryImageButtons from "../components/CategoryImageButtons";
 import ShopNav from "../components/ShopNav";
 import ShopContent from "./ShopContent";
 
+export const metadata = {
+  title: "Shop Page",
+  description: "View Our Products and Deals for Sportswear",
+  robots: {
+    follow: true,
+    index: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+};
+
 const Shop: FC<{ params: { lang: string } }> = ({
   params: { lang = DEFAULT_LOCALE },
 }) => {
@@ -12,15 +25,14 @@ const Shop: FC<{ params: { lang: string } }> = ({
   const href = isDefaultLang ? "" : `/${lang}`;
 
   return (
-    <div className="flex flex-col items-center justify-between h-full">
-
+    <main className="flex flex-col items-center justify-between h-full">
       <div className="flex flex-col items-center border-b-2 mb-7 w-full">
         <div className="text-5xl sm:text-7xl mt-10">{locale[lang].shop}</div>
         <ShopNav href={href} lang={lang} />
         <CategoryImageButtons />
       </div>
       <ShopContent />
-    </div>
+    </main>
   );
 };
 

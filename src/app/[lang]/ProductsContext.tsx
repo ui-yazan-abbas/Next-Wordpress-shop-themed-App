@@ -1,6 +1,8 @@
+"use client";
 import React, { FC, PropsWithChildren, useEffect, useState } from "react";
 import { Product, ProductCategory, ProductsContextType } from "./types";
 import { fetchProducts } from "./utils";
+import { usePathname } from "next/navigation";
 
 export const initialSettings = {
   isShopPage: false,
@@ -17,6 +19,7 @@ export const ProductsContext = React.createContext<ProductsContextType>({
 });
 
 export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
+  const pathname = usePathname();
   const [cartProducts, setCartProducts] = useState<Product[]>([]);
   const [isShowCart, setIsShowCart] = useState(false);
   const [productCategory, setProductCategory] = useState(
@@ -28,6 +31,8 @@ export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [sportswearProducts, setSportswearProducts] = useState([]);
   const [mensProducts, setMensProducts] = useState([]);
   const [womensProducts, setWomensProducts] = useState([]);
+  const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+  const [productCount, setProductCount] = useState(1);
 
   useEffect(() => {
     fetchProducts().then((res): any => {
@@ -53,6 +58,11 @@ export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
         isDefaultLang,
         productCategory,
         setProductCategory,
+        productCount,
+        setProductCount,
+        isLangDropdownOpen,
+        setIsLangDropdownOpen,
+        pathname,
       }}
     >
       {children}

@@ -1,4 +1,3 @@
-"use client";
 import type { Metadata } from "next";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import "./globals.css";
@@ -12,10 +11,26 @@ const roboto = Bebas_Neue({
   subsets: ["latin"],
 });
 
-// export const metadata: Metadata = {
-//   title: "Webook App",
-//   description: "eCommerce Application Test App",
-// }; // gives error because I'm using contextProvider
+const { NEXT_PUBLIC_VERCEL_URL, SITE_NAME } = process.env;
+const baseUrl = NEXT_PUBLIC_VERCEL_URL
+  ? NEXT_PUBLIC_VERCEL_URL
+  : "http://localhost:3000";
+
+export const metadata = {
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: SITE_NAME!,
+    template: `%s | ${SITE_NAME}`,
+  },
+  robots: {
+    follow: true,
+    index: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+};
 
 export default function RootLayout({
   children,
@@ -30,8 +45,8 @@ export default function RootLayout({
         <ProductsProvider>
           <Header lang={lang} />
           {children}
+          <Footer />
         </ProductsProvider>
-        <Footer />
       </body>
     </html>
   );

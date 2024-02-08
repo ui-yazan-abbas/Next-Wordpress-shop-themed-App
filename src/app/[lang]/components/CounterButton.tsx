@@ -1,17 +1,17 @@
-"use client";
-import React, { FC } from "react";
+import React, { FC, useContext } from "react";
+import { ProductsContextType } from "../types";
+import { ProductsContext } from "../ProductsContext";
 
-const CounterButton: FC<{
-  setCount: React.Dispatch<React.SetStateAction<number>>;
-  count: number;
-}> = ({ count, setCount }) => {
+const CounterButton: FC = () => {
+  const { productCount = 1, setProductCount } =
+    useContext<ProductsContextType>(ProductsContext);
   const increment = () => {
-    setCount(count + 1);
+    setProductCount?.(productCount + 1);
   };
 
   const decrement = () => {
-    if (count > 1) {
-      setCount(count - 1);
+    if (productCount > 1) {
+      setProductCount?.(productCount - 1);
     }
   };
 
@@ -20,7 +20,9 @@ const CounterButton: FC<{
       <button className="w-12 h-full hover:text-red-500" onClick={decrement}>
         -
       </button>
-      <div className="flex-1 flex items-center justify-center">{count}</div>
+      <div className="flex-1 flex items-center justify-center">
+        {productCount}
+      </div>
       <button className="w-12 h-full hover:text-red-500" onClick={increment}>
         +
       </button>

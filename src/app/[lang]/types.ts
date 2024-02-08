@@ -39,4 +39,11 @@ export type ProductsContextType = {
   setIsShowCart?: React.Dispatch<React.SetStateAction<boolean>> | undefined;
   cartProducts?: Product[];
   setCartProducts?: React.Dispatch<React.SetStateAction<Product[]>> | undefined;
+  isLangDropdownOpen?: boolean;
+  setIsLangDropdownOpen?:
+    | React.Dispatch<React.SetStateAction<boolean>>
+    | undefined;
+  productCount?: number;
+  setProductCount?: React.Dispatch<React.SetStateAction<number>> | undefined;
+  pathname?: string;
 };

@@ -1,6 +1,5 @@
 "use client";
 import React, { useContext } from "react";
-import Image from "next/image";
 import { links } from "../constants";
 import CategoryImageButton from "./CategoryImageButton";
 import { ProductsContextType } from "../types";

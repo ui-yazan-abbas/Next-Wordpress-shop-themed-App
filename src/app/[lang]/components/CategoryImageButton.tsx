@@ -9,6 +9,7 @@ const CategoryImageButton: FC<{ imgSrc: string; label: ProductCategory }> = ({
 }) => {
   const { setProductCategory } =
     useContext<ProductsContextType>(ProductsContext);
+
   return (
     <button
       onClick={() => setProductCategory?.(label)}

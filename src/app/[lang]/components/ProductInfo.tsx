@@ -1,3 +1,4 @@
+"use client";
 import React, { FC } from "react";
 import { Review } from "../types";
 import StarsReview from "./StarsReview";

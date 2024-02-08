@@ -1,4 +1,3 @@
-"use client";
 import React, { FC, useContext } from "react";
 import { ProductCategory, ProductsContextType } from "../types";
 import { ProductsContext } from "../ProductsContext";
@@ -7,7 +6,7 @@ const CategoryButton: FC<{ itemsCount: number; category: ProductCategory }> = ({
   itemsCount,
   category,
 }) => {
-  const { setProductCategory, productCategory } =
+  const { setProductCategory } =
     useContext<ProductsContextType>(ProductsContext);
 
   return (
