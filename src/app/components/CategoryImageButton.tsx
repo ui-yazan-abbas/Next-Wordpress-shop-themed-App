@@ -13,7 +13,13 @@ const CategoryImageButton: FC<{ imgSrc: string; label: ProductCategory }> = ({
 
   return (
     <button
-      onClick={() => setProductCategory?.(label)}
+      onClick={() => {
+        window.scrollTo({
+          top: document.body.scrollHeight / 4,
+          behavior: "smooth",
+        });
+        setProductCategory?.(label);
+      }}
       className="flex flex-col gap-4 items-center cursor-pointer hover:text-red-500"
     >
       <Image

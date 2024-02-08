@@ -8,6 +8,7 @@ import { LINKS } from "@/src/constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
 import CartComponent from "./CartComponent";
+import Link from "next/link";
 
 const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {
   const pathname = usePathname();
@@ -20,12 +21,14 @@ const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {
       } w-full h-14 border-b-2`}
     >
       <div className="flex items-center p-4">
-        <Image
-          src={isShopPage ? LINKS.brandIconDark : LINKS.brandIconLight}
-          alt="Azeno Brand Icon"
-          width={100}
-          height={100}
-        />
+        <Link href="/">
+          <Image
+            src={isShopPage ? LINKS.brandIconDark : LINKS.brandIconLight}
+            alt="Azeno Brand Icon"
+            width={100}
+            height={100}
+          />
+        </Link>
       </div>
       <Nav lang={lang} isShopPage={isShopPage} />
       <div className="flex items-center p-5">
