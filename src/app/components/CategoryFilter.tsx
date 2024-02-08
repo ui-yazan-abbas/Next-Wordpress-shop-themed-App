@@ -4,9 +4,9 @@ import {
   ComponentWithBrandProductsProps,
   ProductsContextType,
 } from "@/src/types";
-import CategoryButton from "./CategoryButton";
 import { locale } from "@/locales";
 import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
+import CategoryButton from "./CategoryButton";
 
 const CategoryFilter: FC<ComponentWithBrandProductsProps> = ({
   mensProducts = [],

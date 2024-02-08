@@ -28,7 +28,7 @@ const CartPopup: FC<{ lang: string }> = () => {
             <div className="pointer-events-auto w-screen max-w-md">
               <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
                 <CartHeader />
-                {!!cartProducts.length ? (
+                {cartProducts.length ? (
                   <CartProducts />
                 ) : (
                   <div className="flex items-center justify-center sm:mt-20">

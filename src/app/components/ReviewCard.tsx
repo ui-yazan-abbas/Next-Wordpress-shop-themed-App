@@ -4,7 +4,7 @@ import { Review } from "@/src/types";
 import StarsReview from "./StarsReview";
 
 const ReviewCard: FC<{ reviews: Review[] }> = ({ reviews }) =>
-  !!reviews?.length
+  reviews?.length
     ? reviews.map(({ review, user, formatted_date }) => (
         <div className="p-6" key={review}>
           <div className="flex justify-between border-[1px] items-center p-8">

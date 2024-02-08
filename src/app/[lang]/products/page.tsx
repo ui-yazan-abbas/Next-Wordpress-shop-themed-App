@@ -26,7 +26,7 @@ const Shop: FC<{ params: { lang: string } }> = async ({
   const isDefaultLang = lang === DEFAULT_LOCALE;
   const href = isDefaultLang ? "" : `/${lang}`;
   const { products } = await fetchProducts();
-  const { womens, mens, footwear, sportswear } = products?.[0];
+  const { womens, mens, footwear, sportswear } = products?.[0] || {};
 
   return (
     <main className="flex flex-col items-center justify-between h-full">

@@ -1,5 +1,5 @@
-import { FaStar } from "react-icons/fa";
 import React, { FC } from "react";
+import { FaStar } from "react-icons/fa";
 
 import { Review } from "@/src/types";
 

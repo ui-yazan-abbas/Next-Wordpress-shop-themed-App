@@ -4,8 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import { DEFAULT_LOCALE } from "@/src/constants";
-import { LINKS } from "@/src/constants";
+import { DEFAULT_LOCALE, LINKS } from "@/src/constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
 import CartComponent from "./CartComponent";

@@ -1,0 +1,113 @@
+module.exports = {
+  parser: "@typescript-eslint/parser",
+  plugins: ["prettier", "@typescript-eslint", "react-hooks"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/warnings",
+    "plugin:import/warnings",
+  ],
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
+  rules: {
+    "no-unused-vars": "off",
+    "no-console": ["warn", { allow: ["error"] }],
+    "prettier/prettier": "off",
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+        ],
+        pathGroups: [
+          {
+            pattern: "next/server",
+            group: "builtin",
+            position: "before",
+          },
+          {
+            pattern: "react+(|-native)",
+            group: "builtin",
+            position: "before",
+          },
+          {
+            pattern: "@/**",
+            group: "internal",
+            position: "after",
+          },
+        ],
+        pathGroupsExcludedImportTypes: ["react"],
+      },
+    ],
+    "import/no-duplicates": "error",
+    "import/no-unresolved": "off",
+    "import/named": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "sort-imports": [
+      "warn",
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+        allowSeparatedGroups: false,
+      },
+    ],
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "no-unsafe-optional-chaining": "error",
+    "no-case-declarations": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        vars: "all",
+        args: "after-used",
+        ignoreRestSiblings: true,
+        argsIgnorePattern: "^_",
+      },
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
+  globals: {
+    __CONFIG__: true,
+    __DEV__: true,
+    __RELEASE__: true,
+  },
+};

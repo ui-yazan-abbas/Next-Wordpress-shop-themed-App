@@ -1,10 +1,8 @@
 import React, { FC, useContext } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 import { DEFAULT_LOCALE, LOCALES } from "@/src/constants";
 import { locale } from "@/locales";
-
 import { LocalesLanguage, ProductsContextType } from "@/src/types";
 import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
@@ -14,7 +12,6 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
 }) => {
   const { isLangDropdownOpen, setIsLangDropdownOpen } =
     useContext<ProductsContextType>(ProductsContext);
-  const pathname = usePathname();
 
   const toggleDropdown = () => setIsLangDropdownOpen?.(!isLangDropdownOpen);
 

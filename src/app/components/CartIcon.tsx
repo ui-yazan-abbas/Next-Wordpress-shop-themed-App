@@ -1,31 +1,23 @@
-import React from "react";
+import React, { FC, useContext } from "react";
 
-const CartIcon = () => (
-  <svg
-    version="1.0"
-    xmlns="http://www.w3.org/2000/svg"
-    width="32.000000pt"
-    height="32.000000pt"
-    viewBox="0 0 32.000000 32.000000"
-    preserveAspectRatio="xMidYMid meet"
-  >
-    <g
-      transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
-      fill="#FF0000"
-      stroke="none"
-    >
-      <path
-        d="M22 273 c10 -2 20 -14 23 -26 3 -12 10 -44 15 -72 16 -72 21 -75 114
-  -75 96 0 113 9 126 65 21 89 26 85 -115 85 -102 0 -127 3 -131 15 -4 8 -16 14
-  -28 14 -16 -1 -17 -2 -4 -6z m116 -102 c3 -24 0 -32 -10 -29 -7 3 -14 19 -16
-  37 -3 24 0 32 10 29 7 -3 14 -19 16 -37z m57 28 c9 -14 -3 -59 -15 -59 -6 0
-  -10 16 -10 35 0 34 12 46 25 24z m57 -15 c-6 -39 -12 -48 -24 -36 -14 14 -1
-  65 15 59 7 -2 11 -13 9 -23z"
-      />
-      <path d="M87 74 c-14 -15 -6 -34 14 -34 14 0 19 5 17 17 -3 18 -20 27 -31 17z" />
-      <path d="M240 60 c0 -15 5 -20 18 -18 22 4 22 32 0 36 -13 2 -18 -3 -18 -18z" />
-    </g>
-  </svg>
-);
+import { ProductsContextType } from "@/src/types";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
+
+const CartIcon: FC = () => {
+  const { cartProducts } = useContext<ProductsContextType>(ProductsContext);
+
+  return (
+    <div className="font-sans block mt-4 lg:inline-block text-red-500 lg:mt-0 lg:ml-6 align-middle hover:text-gray-700">
+      <a href="#" role="button" className="relative flex">
+        <svg className="flex-1 w-8 h-8 fill-current" viewBox="0 0 28 28">
+          <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
+        </svg>
+        <span className="absolute right-0 top-0 rounded-full bg-gray-700 w-4 h-4 top right p-0 m-0 text-white font-mono text-sm  leading-tight text-center">
+          {cartProducts?.length || "-"}
+        </span>
+      </a>
+    </div>
+  );
+};
 
 export default CartIcon;

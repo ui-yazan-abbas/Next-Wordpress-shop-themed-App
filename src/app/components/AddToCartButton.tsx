@@ -37,6 +37,7 @@ const AddToCartButton: FC<{ product: Product; lang: string }> = ({
     setCartProducts,
     setIsShowCart,
     setProductCount,
+    product,
   ]);
 
   return (

@@ -10,7 +10,7 @@ const Home: FC<{ params: { lang: string } }> = async ({
   params: { lang = DEFAULT_LOCALE },
 }) => {
   const { products } = await fetchProducts();
-  const { sportswear } = products?.[0];
+  const { sportswear } = products?.[0] || {};
 
   return (
     <main className="flex flex-col items-center justify-between w-full">
