@@ -36,7 +36,7 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
         <ul
           className={`absolute ${
             isShopPage ? "bg-white" : "bg-black"
-          } w-18 z-50 right-20`}
+          } w-18 right-20`}
         >
           {LOCALES.map((localFile) => {
             return (
