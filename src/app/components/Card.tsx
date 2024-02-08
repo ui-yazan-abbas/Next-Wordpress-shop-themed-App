@@ -21,8 +21,8 @@ const Card: FC<{
   const handleMouseLeave = () => setIsHovered(false);
 
   return (
-    <div className="flex max-w-[434px] flex-col p-4 gap-1">
-      <Link href={`/products/${id}`}>
+    <Link href={`/products/${id}`}>
+      <div className="flex max-w-[434px] flex-col p-4 gap-1">
         <Image
           alt={name}
           src={isHovered ? images[1] : images[0]}
@@ -31,14 +31,14 @@ const Card: FC<{
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />
-      </Link>
-      <div className="flex justify-between">
-        <p className="text-xs text-neutral-400">{category}</p>
-        <StarsReview reviews={reviews} />
+        <div className="flex justify-between">
+          <p className="text-xs text-neutral-400">{category}</p>
+          <StarsReview reviews={reviews} />
+        </div>
+        <p className="text-sm font-sans">{name}</p>
+        <p className="text-sm font-arial">{price}</p>
       </div>
-      <p className="text-sm font-sans">{name}</p>
-      <p className="text-sm font-arial">{price}</p>
-    </div>
+    </Link>
   );
 };
 
