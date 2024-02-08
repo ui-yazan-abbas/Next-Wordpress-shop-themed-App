@@ -33,7 +33,6 @@ export function middleware(request: NextRequest) {
     const newUrl = `/${locale}${
       pathname.startsWith("/") ? "" : "/"
     }${pathname}`;
-    // add handler to weird links
     if (locale === DEFAULT_LOCALE) {
       return NextResponse.rewrite(new URL(newUrl, request.url));
     }

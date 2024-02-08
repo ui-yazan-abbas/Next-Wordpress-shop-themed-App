@@ -1,6 +1,6 @@
 import { ProductCategory } from "./types";
 
-export const links = {
+export const LINKS = {
   brandIconDark:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/12/Logo-dark-1.png.webp",
   brandIconLight:
@@ -19,6 +19,7 @@ export const links = {
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-1.jpg.webp",
   mainPageMenWearImage:
     "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2020/11/img6-2.jpg.webp",
+  cart_empty_state: "https://i.ibb.co/BGZgDVw/empty-state.png",
 };
 
 export const DEFAULT_PRODUCT = {

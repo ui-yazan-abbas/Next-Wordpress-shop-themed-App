@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { links } from "../constants";
+import { LINKS } from "../constants";
 import { sportsWearProducts } from "../types";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 import CarouselComponent from "./Carousel";
@@ -19,7 +19,7 @@ const HomeBottomSection: FC<{
       <div className="sm:absolute w2/5 right-0">
         <div className="relative">
           <ZoomOnHoverImage
-            src={links.mainPageMenWearImage}
+            src={LINKS.mainPageMenWearImage}
             alt="Kid playing basket ball ad"
             width={620}
             height={300}

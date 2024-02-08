@@ -1,7 +1,7 @@
 "use client";
 import React, { FC } from "react";
 
-import { links } from "../constants";
+import { LINKS } from "../constants";
 import { ComponentWithBrandProductsProps } from "../types";
 import CategoryImageButton from "./CategoryImageButton";
 
@@ -16,21 +16,21 @@ const CategoryImageButtons: FC<ComponentWithBrandProductsProps> = ({
       <div className="mb-6 flex-col sm:flex-row flex justify-center gap-8 w-full">
         <div className="flex gap-8">
           <CategoryImageButton
-            imgSrc={links.sportswearCategoryImage}
+            imgSrc={LINKS.sportswearCategoryImage}
             label={sportswearProducts[0]?.category}
           />
           <CategoryImageButton
-            imgSrc={links.footwearCategoryImage}
+            imgSrc={LINKS.footwearCategoryImage}
             label={footwearProducts[0]?.category}
           />
         </div>
         <div className="flex gap-8">
           <CategoryImageButton
-            imgSrc={links.mensCategoryImage}
+            imgSrc={LINKS.mensCategoryImage}
             label={mensProducts[0]?.category}
           />
           <CategoryImageButton
-            imgSrc={links.womensCategoryImage}
+            imgSrc={LINKS.womensCategoryImage}
             label={womensProducts[0]?.category}
           />
         </div>

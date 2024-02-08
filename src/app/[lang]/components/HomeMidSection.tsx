@@ -2,14 +2,14 @@ import React, { FC } from "react";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { links } from "../constants";
+import { LINKS } from "../constants";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 
 const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
   return (
     <div className="flex flex-col-reverse sm:flex-row w-full h-full">
       <ZoomOnHoverImage
-        src={links.mainPageSportswearImage}
+        src={LINKS.mainPageSportswearImage}
         alt="Man climbing mountain ad"
         width={1380}
         height={1000}

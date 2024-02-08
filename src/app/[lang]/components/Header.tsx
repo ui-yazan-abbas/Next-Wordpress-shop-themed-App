@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 import { DEFAULT_LOCALE } from "@/src/middleware";
-import { links } from "../constants";
+import { LINKS } from "../constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
 import CartComponent from "./CartComponent";
@@ -21,7 +21,7 @@ const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {
     >
       <div className="flex items-center p-4">
         <Image
-          src={isShopPage ? links.brandIconDark : links.brandIconLight}
+          src={isShopPage ? LINKS.brandIconDark : LINKS.brandIconLight}
           alt="Azeno Brand Icon"
           width={100}
           height={100}

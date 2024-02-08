@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { links } from "../constants";
+import { LINKS } from "../constants";
 
 const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
   <div className="relative w-full">
     <Image
-      src={links.mainPageProCombatImage}
+      src={LINKS.mainPageProCombatImage}
       alt="Pro Combat Wear Add"
       width={2600}
       height={2600}
