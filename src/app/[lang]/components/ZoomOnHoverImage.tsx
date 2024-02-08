@@ -6,18 +6,16 @@ const ZoomOnHoverImage: FC<{
   alt: string;
   width: number;
   height: number;
-}> = ({ src, alt, width, height }) => {
-  return (
-    <div className="relative overflow-hidden">
-      <Image
-        src={src}
-        alt={alt}
-        className="hover:scale-125 transition-all duration-500 cursor-pointer"
-        width={width}
-        height={height}
-      />
-    </div>
-  );
-};
+}> = ({ src, alt, width, height }) => (
+  <div className="relative overflow-hidden">
+    <Image
+      src={src}
+      alt={alt}
+      className="hover:scale-125 transition-all duration-500 cursor-pointer"
+      width={width}
+      height={height}
+    />
+  </div>
+);
 
 export default ZoomOnHoverImage;

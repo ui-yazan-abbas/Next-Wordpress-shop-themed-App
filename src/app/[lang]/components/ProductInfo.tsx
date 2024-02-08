@@ -21,7 +21,7 @@ const ProductInfo: FC<{ reviews: Review[]; name: string; price: string }> = ({
     <div className="flex pb-4 gap-2 items-center">
       <StarsReview reviews={reviews} />
       <button onClick={scrollToBottomAndClick}>
-        <p className="text-1xl font-sans text-neutral-400">
+        <p className="text-1xl font-sans text-neutral-400 hover:text-neutral-600">
           ({reviews?.[0] ? reviews.length : 0})
         </p>
       </button>

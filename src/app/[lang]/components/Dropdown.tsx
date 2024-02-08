@@ -38,21 +38,19 @@ const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
             isShopPage ? "bg-white" : "bg-black"
           } w-18 right-20`}
         >
-          {LOCALES.map((localFile) => {
-            return (
-              <li
-                key={localFile}
-                className={`px-4 py-2 text-xs ${
-                  isShopPage ? "text-black" : "text-white"
-                } hover:text-red-500 cursor-pointer`}
-                onClick={toggleDropdown}
-              >
-                <Link href={redirectedPathName(localFile)}>
-                  {locale[lang][localFile]}
-                </Link>
-              </li>
-            );
-          })}
+          {LOCALES.map((localFile) => (
+            <li
+              key={localFile}
+              className={`px-4 py-2 text-xs ${
+                isShopPage ? "text-black" : "text-white"
+              } hover:text-red-500 cursor-pointer`}
+              onClick={toggleDropdown}
+            >
+              <Link href={redirectedPathName(localFile)}>
+                {locale[lang][localFile]}
+              </Link>
+            </li>
+          ))}
         </ul>
       ) : null}
     </button>

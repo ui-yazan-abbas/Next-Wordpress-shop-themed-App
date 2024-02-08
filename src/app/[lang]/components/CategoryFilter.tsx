@@ -8,28 +8,26 @@ const CategoryFilter: FC<ComponentWithBrandProductsProps> = ({
   womensProducts = [],
   sportswearProducts = [],
   footwearProducts = [],
-}) => {
-  return (
-    <div className="hidden sm:flex flex-col  gap-2">
-      <p className="text-xl border-b-2">Categories</p>
-      <CategoryButton
-        itemsCount={mensProducts.length}
-        category={mensProducts?.[0]?.category}
-      />
-      <CategoryButton
-        itemsCount={footwearProducts.length}
-        category={footwearProducts?.[0]?.category}
-      />
-      <CategoryButton
-        itemsCount={sportswearProducts.length}
-        category={sportswearProducts?.[0]?.category}
-      />
-      <CategoryButton
-        itemsCount={womensProducts.length}
-        category={womensProducts?.[0]?.category}
-      />
-    </div>
-  );
-};
+}) => (
+  <div className="hidden sm:flex flex-col  gap-2">
+    <p className="text-xl border-b-2">Categories</p>
+    <CategoryButton
+      itemsCount={mensProducts.length}
+      category={mensProducts?.[0]?.category}
+    />
+    <CategoryButton
+      itemsCount={footwearProducts.length}
+      category={footwearProducts?.[0]?.category}
+    />
+    <CategoryButton
+      itemsCount={sportswearProducts.length}
+      category={sportswearProducts?.[0]?.category}
+    />
+    <CategoryButton
+      itemsCount={womensProducts.length}
+      category={womensProducts?.[0]?.category}
+    />
+  </div>
+);
 
 export default CategoryFilter;
