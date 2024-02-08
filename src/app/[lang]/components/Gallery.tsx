@@ -1,20 +1,24 @@
-"use client";
-import React, { useContext, useMemo } from "react";
+import React, { FC, useContext } from "react";
 
-import { ProductsContext } from "../ProductsContext";
-import { Product, ProductCategory, ProductsContextType } from "../types";
+import {
+  ComponentWithBrandProductsProps,
+  Product,
+  ProductCategory,
+  ProductsContextType,
+} from "../types";
 import Card from "./Card";
+import { ProductsContext } from "../ProductsContext";
 
-const Gallery = () => {
-  const {
-    mensProducts = [],
-    womensProducts = [],
-    sportswearProducts = [],
-    footwearProducts = [],
-    productCategory,
-  } = useContext<ProductsContextType>(ProductsContext);
+const Gallery: FC<ComponentWithBrandProductsProps> = ({
+  mensProducts = [],
+  womensProducts = [],
+  sportswearProducts = [],
+  footwearProducts = [],
+}) => {
+  const { productCategory = ProductCategory.FOOTWEAR } =
+    useContext<ProductsContextType>(ProductsContext);
 
-  const products = useMemo<Product[]>((): Product[] => {
+  const getProducts = (productCategory: ProductCategory): Product[] => {
     switch (productCategory) {
       case ProductCategory.SPORTSWEAR:
         return sportswearProducts;
@@ -27,27 +31,23 @@ const Gallery = () => {
       default:
         return footwearProducts;
     }
-  }, [
-    productCategory,
-    sportswearProducts,
-    footwearProducts,
-    womensProducts,
-    mensProducts,
-  ]);
+  };
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-      {products.map(({ images, name, price, reviews, category, id }) => (
-        <Card
-          key={id}
-          id={id}
-          name={name}
-          images={images}
-          category={category}
-          price={price}
-          reviews={reviews}
-        />
-      ))}
+      {getProducts(productCategory).map(
+        ({ images, name, price, reviews, category, id }) => (
+          <Card
+            key={id}
+            id={id}
+            name={name}
+            images={images}
+            category={category}
+            price={price}
+            reviews={reviews}
+          />
+        )
+      )}
     </div>
   );
 };

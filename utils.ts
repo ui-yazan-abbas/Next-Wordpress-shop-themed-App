@@ -1,6 +1,4 @@
-import { cache } from "react";
-
-export const fetchProducts = cache(async () => {
+export const fetchProducts = async () => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_URL_PREFIX}/api/products`,
     {
@@ -9,14 +7,12 @@ export const fetchProducts = cache(async () => {
   );
 
   return res.json();
-});
+};
 
-export const fetchProductById = cache(async (id: string) => {
+export const fetchProductById = async (id: string) => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_URL_PREFIX}/api/products/${id}`,
-    {
-      cache: "no-store",
-    }
+    { cache: "no-store" }
   );
   return res.json();
-});
+};

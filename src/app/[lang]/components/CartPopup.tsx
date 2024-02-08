@@ -78,7 +78,7 @@ const CartPopup: FC<{ lang: string }> = () => {
                       >
                         {cartProducts.map((cartProduct) => (
                           <CartProductCard
-                            key={cartProduct.id}
+                            key={cartProduct?.id}
                             cartProduct={cartProduct}
                           />
                         ))}

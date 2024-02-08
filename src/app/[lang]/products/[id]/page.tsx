@@ -4,6 +4,7 @@ import { Metadata, ResolvingMetadata } from "next";
 
 import { fetchProductById } from "@/utils";
 
+import { Product } from "../../types";
 import ReviewsSection from "./ReviewsSection";
 import AddToCartSection from "./AddToCartSection";
 
@@ -16,13 +17,15 @@ export async function generateMetadata(
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   const product = await fetchProductById(params.id);
+
   const previousImages = (await parent).openGraph?.images || [];
-  if (!product) return notFound();
-  const url = product.images?.[0];
+  if (!product[0]) return notFound();
+  const url = product[0].images?.[0];
+  const { name, description } = product[0];
 
   return {
-    title: product.name,
-    description: product.description,
+    title: name,
+    description: description,
     robots: {
       index: true,
       follow: true,
@@ -36,7 +39,7 @@ export async function generateMetadata(
           images: [
             {
               url,
-              alt: product.name,
+              alt: name,
             },
             ...previousImages,
           ],
@@ -45,11 +48,17 @@ export async function generateMetadata(
   };
 }
 
-const Product: FC<{ params: { id: string; lang: string } }> = ({ params }) => (
-  <main className="flex flex-col">
-    <AddToCartSection productId={params.id} lang={params.lang} />
-    <ReviewsSection productId={params.id} lang={params.lang} />
-  </main>
-);
+const Product: FC<{ params: { id: string; lang: string } }> = async ({
+  params,
+}) => {
+  const product: Product[] = await fetchProductById(params.id);
+
+  return (
+    <main className="flex flex-col">
+      <AddToCartSection product={product?.[0]} lang={params.lang} />
+      <ReviewsSection product={product?.[0]} lang={params.lang} />
+    </main>
+  );
+};
 
 export default Product;

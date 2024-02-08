@@ -1,10 +1,9 @@
 "use client";
-import { FC, useContext } from "react";
+import { FC } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { ProductsContext } from "../ProductsContext";
-import { ProductsContextType } from "../types";
+import { Product, sportsWearProducts } from "../types";
 import Card from "./Card";
 
 const RESPONSIVE = {
@@ -25,11 +24,10 @@ const RESPONSIVE = {
   },
 };
 
-const CarouselComponent: FC = () => {
-  const { sportswearProducts = [] } =
-    useContext<ProductsContextType>(ProductsContext);
-
-  return (
+const CarouselComponent: FC<{
+  sportswearProducts: sportsWearProducts;
+}> = ({ sportswearProducts = [] }) =>
+  sportswearProducts ? (
     <Carousel
       responsive={RESPONSIVE}
       ssr
@@ -41,7 +39,7 @@ const CarouselComponent: FC = () => {
       arrows={false} // true by default
       className="m-0 p-0"
     >
-      {sportswearProducts.map(
+      {(sportswearProducts as Product[]).map(
         ({ images, name, price, category, reviews, id }) => (
           <Card
             key={id}
@@ -55,7 +53,6 @@ const CarouselComponent: FC = () => {
         )
       )}
     </Carousel>
-  );
-};
+  ) : null;
 
 export default CarouselComponent;

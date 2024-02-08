@@ -3,14 +3,18 @@ import Link from "next/link";
 
 import { locale } from "@/locales";
 import { links } from "../constants";
+import { sportsWearProducts } from "../types";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 import CarouselComponent from "./Carousel";
 
-const HomeBottomSection: FC<{ lang: string }> = ({ lang }) => {
+const HomeBottomSection: FC<{
+  lang: string;
+  sportswearProducts: sportsWearProducts;
+}> = ({ lang, sportswearProducts }) => {
   return (
     <div className="flex flex-col md:flex-row w-full h-full">
       <div className="sm:w-[850px] sm:mt-[50px]">
-        <CarouselComponent />
+        <CarouselComponent sportswearProducts={sportswearProducts} />
       </div>
       <div className="sm:absolute w2/5 right-0">
         <div className="relative">

@@ -1,23 +1,14 @@
 "use client";
-import React, { FC, useEffect, useState } from "react";
-import { fetchProductById } from "@/utils";
+import React, { FC, useState } from "react";
 
-import { DEFAULT_PRODUCT } from "../../constants";
 import UnderLinedButton from "../../components/UnderLinedButton";
 import { Product, Review } from "../../types";
 import ReviewCard from "../../components/ReviewCard";
 
-const ReviewsSection: FC<{ productId: string; lang: string }> = ({
-  productId,
+const ReviewsSection: FC<{ product: Product; lang: string }> = ({
+  product,
 }) => {
-  const [data, setData] = useState<Product>(DEFAULT_PRODUCT);
   const [isDescriptionView, setIsDescriptionView] = useState(true);
-
-  useEffect(() => {
-    fetchProductById(productId).then((res: any) => {
-      setData(res[0]);
-    });
-  }, []);
 
   return (
     <section className="h-full pb-8">
@@ -33,15 +24,15 @@ const ReviewsSection: FC<{ productId: string; lang: string }> = ({
           onClick={() => setIsDescriptionView(false)}
           isPressed={!isDescriptionView}
         >
-          Reviews ({data.reviews?.length || 0})
+          Reviews ({product?.reviews?.length || 0})
         </UnderLinedButton>
       </div>
       {isDescriptionView ? (
         <p className="text-xs font-sans text-neutral-500 p-8">
-          {data.description}
+          {product?.description}
         </p>
       ) : (
-        <ReviewCard reviews={data.reviews as Review[]} />
+        <ReviewCard reviews={product?.reviews as Review[]} />
       )}
     </section>
   );

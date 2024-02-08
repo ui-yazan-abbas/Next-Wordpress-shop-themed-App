@@ -12,6 +12,18 @@ export type Review = {
   formatted_date: string;
 };
 
+export interface ComponentWithBrandProductsProps {
+  footwearProducts: Product[];
+  mensProducts: Product[];
+  womensProducts: Product[];
+  sportswearProducts: Product[];
+}
+
+export type sportsWearProducts = Pick<
+  ComponentWithBrandProductsProps,
+  "sportswearProducts"
+>;
+
 export interface Product {
   name: string;
   price: string;
@@ -25,12 +37,6 @@ export interface Product {
 }
 
 export type ProductsContextType = {
-  footwearProducts?: Product[];
-  mensProducts?: Product[];
-  womensProducts?: Product[];
-  sportswearProducts?: Product[];
-  isShopPage?: boolean;
-  isDefaultLang?: boolean;
   productCategory?: ProductCategory;
   setProductCategory?:
     | React.Dispatch<React.SetStateAction<ProductCategory>>

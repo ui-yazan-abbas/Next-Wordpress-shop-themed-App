@@ -1,18 +1,14 @@
-"use client";
-import React, { useContext } from "react";
+import React, { FC } from "react";
 
-import { ProductsContext } from "../ProductsContext";
-import { ProductsContextType } from "../types";
+import { ComponentWithBrandProductsProps } from "../types";
 import CategoryButton from "./CategoryButton";
 
-const CategoryFilter = () => {
-  const {
-    mensProducts = [],
-    womensProducts = [],
-    sportswearProducts = [],
-    footwearProducts = [],
-  } = useContext<ProductsContextType>(ProductsContext);
-
+const CategoryFilter: FC<ComponentWithBrandProductsProps> = ({
+  mensProducts = [],
+  womensProducts = [],
+  sportswearProducts = [],
+  footwearProducts = [],
+}) => {
   return (
     <div className="hidden sm:flex flex-col  gap-2">
       <p className="text-xl border-b-2">Categories</p>

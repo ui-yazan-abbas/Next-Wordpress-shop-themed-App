@@ -9,7 +9,7 @@ const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => {
       <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
         <Image
           src={cartProduct?.images?.[0]}
-          alt={cartProduct.name}
+          alt={cartProduct?.name}
           className="h-full w-full object-cover object-center"
           width={200}
           height={200}

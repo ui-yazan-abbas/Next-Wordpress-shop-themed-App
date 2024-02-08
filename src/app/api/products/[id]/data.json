@@ -139,8 +139,18 @@
       "https://wpbingosite.com/wordpress/azeno/wp-content/webp-express/webp-images/uploads/2016/04/Top-Dri-FIT-Academy-4.jpg.webp"
     ],
     "reviews": [
-      { "stars": 4, "review": "Awesome!!" },
-      { "stars": 5, "review": "very good!" }
+      {
+        "stars": 4,
+        "review": "Awesome!!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      },
+      {
+        "stars": 5,
+        "review": "very good!",
+        "user": "hunterXhunter",
+        "formatted_date": "2/2/2024 19:20"
+      }
     ]
   },
   {

@@ -18,7 +18,7 @@ const AddToCartButton: FC<{ product: Product; lang: string }> = ({
   return (
     <div className="border-b-[1px] pt-4">
       <p className="font-sans text-sm text-neutral-400 p-4">
-        {product.material}
+        {product?.material}
       </p>
       <div className="flex p-4 w-full justify-between gap-4">
         <CounterButton />

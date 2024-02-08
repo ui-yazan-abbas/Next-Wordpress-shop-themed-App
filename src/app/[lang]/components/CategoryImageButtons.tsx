@@ -1,19 +1,16 @@
 "use client";
-import React, { useContext } from "react";
+import React, { FC } from "react";
 
 import { links } from "../constants";
-import { ProductsContext } from "../ProductsContext";
+import { ComponentWithBrandProductsProps } from "../types";
 import CategoryImageButton from "./CategoryImageButton";
-import { ProductsContextType } from "../types";
 
-const CategoryImageButtons = () => {
-  const {
-    mensProducts = [],
-    womensProducts = [],
-    sportswearProducts = [],
-    footwearProducts = [],
-  } = useContext<ProductsContextType>(ProductsContext);
-
+const CategoryImageButtons: FC<ComponentWithBrandProductsProps> = ({
+  mensProducts = [],
+  womensProducts = [],
+  sportswearProducts = [],
+  footwearProducts = [],
+}) => {
   return (
     <div className="px-6 pt-6 mx-auto">
       <div className="mb-6 flex-col sm:flex-row flex justify-center gap-8 w-full">
