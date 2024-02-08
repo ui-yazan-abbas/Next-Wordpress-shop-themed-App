@@ -11,7 +11,7 @@ const CartProducts: FC = () => {
   return (
     <div className="mt-8">
       <div className="flow-root">
-        <ul role="list" className="-my-6 divide-y divide-gray-200">
+        <ul role="list" className="-my-6 divide-y divide-gray-200 pb-20">
           {cartProducts.map((cartProduct) => (
             <CartProductCard key={cartProduct?.id} cartProduct={cartProduct} />
           ))}
