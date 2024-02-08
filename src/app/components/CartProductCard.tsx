@@ -5,11 +5,8 @@ import { Product, ProductsContextType } from "@/src/types";
 import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => {
-  const {
-    setIsShowCart,
-    setCartProducts,
-    cartProducts = [],
-  } = useContext<ProductsContextType>(ProductsContext);
+  const { setCartProducts, cartProducts = [] } =
+    useContext<ProductsContextType>(ProductsContext);
 
   const deleteProductFromCart = useCallback<
     MouseEventHandler<HTMLButtonElement>
@@ -19,11 +16,7 @@ const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => {
     );
 
     setCartProducts?.(updatedCartProducts);
-
-    if (!updatedCartProducts.length) {
-      setIsShowCart?.(false);
-    }
-  }, [cartProducts, cartProduct, setCartProducts, setIsShowCart]);
+  }, [cartProducts, cartProduct, setCartProducts]);
 
   return (
     <li className="flex p-6">
