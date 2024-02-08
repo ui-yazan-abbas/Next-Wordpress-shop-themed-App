@@ -1,8 +1,9 @@
 "use client";
 import React, { useContext } from "react";
+
 import { ProductsContext } from "../ProductsContext";
-import CategoryButton from "./CategoryButton";
 import { ProductsContextType } from "../types";
+import CategoryButton from "./CategoryButton";
 
 const CategoryFilter = () => {
   const {

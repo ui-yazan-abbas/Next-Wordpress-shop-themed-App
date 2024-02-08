@@ -1,10 +1,12 @@
 import React, { FC, useContext, useMemo } from "react";
-import { ProductsContextType } from "../types";
-import { ProductsContext } from "../ProductsContext";
-import CloseIcon from "./CloseIcon";
-import CartProductCard from "./CartProductCard";
 import Link from "next/link";
+
+import { ProductsContextType } from "../types";
 import { calculateTotalAmount } from "../products/utils";
+import { ProductsContext } from "../ProductsContext";
+
+import CartProductCard from "./CartProductCard";
+import CloseIcon from "./CloseIcon";
 
 const CartPopup: FC<{ lang: string }> = () => {
   const { setIsShowCart, cartProducts = [] } =

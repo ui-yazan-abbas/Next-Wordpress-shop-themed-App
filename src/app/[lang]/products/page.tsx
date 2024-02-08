@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { locale } from "@/locales";
 import { DEFAULT_LOCALE } from "@/src/middleware";
+
 import CategoryImageButtons from "../components/CategoryImageButtons";
 import ShopNav from "../components/ShopNav";
 import ShopContent from "./ShopContent";

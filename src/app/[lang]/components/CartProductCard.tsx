@@ -1,5 +1,6 @@
-import Image from "next/image";
 import React, { FC } from "react";
+import Image from "next/image";
+
 import { Product } from "../types";
 
 const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => {

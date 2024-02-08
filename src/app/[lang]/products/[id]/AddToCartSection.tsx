@@ -1,13 +1,15 @@
 "use client";
 import React, { FC, useEffect, useState } from "react";
+
 import { fetchProductById } from "@/utils";
-import ProductCard from "../../components/ProductCard";
 import { DEFAULT_LOCALE } from "@/src/middleware";
+
 import ProductPageNav from "../../components/ProductPageNav";
 import ShareProduct from "../../components/ShareProduct";
 import { ProductCategory } from "../../types";
 import AddToCartButton from "../../components/AddToCartButton";
 import ProductInfo from "../../components/ProductInfo";
+import ProductCard from "../../components/ProductCard";
 import { DEFAULT_PRODUCT } from "../../constants";
 
 const AddToCartSection: FC<{ productId: string; lang: string }> = ({

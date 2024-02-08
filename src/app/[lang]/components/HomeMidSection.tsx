@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+import Link from "next/link";
+
+import { locale } from "@/locales";
 import { links } from "../constants";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
-import { locale } from "@/locales";
-import Link from "next/link";
 
 const HomeMidSection: FC<{ lang: string }> = ({ lang }) => {
   return (

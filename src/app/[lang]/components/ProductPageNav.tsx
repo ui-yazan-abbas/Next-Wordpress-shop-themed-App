@@ -1,6 +1,7 @@
-import { locale } from "@/locales";
-import Link from "next/link";
 import React, { FC } from "react";
+import Link from "next/link";
+
+import { locale } from "@/locales";
 
 const ProductPageNav: FC<{
   lang: string;

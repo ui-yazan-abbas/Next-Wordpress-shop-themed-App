@@ -1,9 +1,10 @@
 import React, { FC } from "react";
-import CarouselComponent from "./Carousel";
-import ZoomOnHoverImage from "./ZoomOnHoverImage";
-import { links } from "../constants";
-import { locale } from "@/locales";
 import Link from "next/link";
+
+import { locale } from "@/locales";
+import { links } from "../constants";
+import ZoomOnHoverImage from "./ZoomOnHoverImage";
+import CarouselComponent from "./Carousel";
 
 const HomeBottomSection: FC<{ lang: string }> = ({ lang }) => {
   return (

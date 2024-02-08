@@ -1,4 +1,5 @@
-import React, { FC, use } from "react";
+import React, { FC } from "react";
+
 import { Review } from "../types";
 import StarsReview from "./StarsReview";
 

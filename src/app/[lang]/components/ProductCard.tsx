@@ -1,6 +1,7 @@
 "use client";
-import Image from "next/image";
 import React, { FC, useState } from "react";
+import Image from "next/image";
+
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 
 const ProductPageCard: FC<{

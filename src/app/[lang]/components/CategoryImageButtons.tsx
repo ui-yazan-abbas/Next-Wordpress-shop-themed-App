@@ -1,9 +1,10 @@
 "use client";
 import React, { useContext } from "react";
+
 import { links } from "../constants";
+import { ProductsContext } from "../ProductsContext";
 import CategoryImageButton from "./CategoryImageButton";
 import { ProductsContextType } from "../types";
-import { ProductsContext } from "../ProductsContext";
 
 const CategoryImageButtons = () => {
   const {

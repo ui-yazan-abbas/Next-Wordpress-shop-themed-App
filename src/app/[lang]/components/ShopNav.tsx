@@ -1,6 +1,7 @@
-import { locale } from "@/locales";
 import Link from "next/link";
 import React, { FC } from "react";
+
+import { locale } from "@/locales";
 
 const ShopNav: FC<{ href: string; lang: string }> = ({ href, lang }) => {
   return (

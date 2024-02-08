@@ -1,7 +1,8 @@
-import Image from "next/image";
 import React, { FC, useState } from "react";
-import { Review } from "../types";
+import Image from "next/image";
 import Link from "next/link";
+
+import { Review } from "../types";
 import StarsReview from "./StarsReview";
 
 const Card: FC<{

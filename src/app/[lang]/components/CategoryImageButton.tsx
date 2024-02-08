@@ -1,5 +1,6 @@
 import React, { FC, useContext } from "react";
 import Image from "next/image";
+
 import { ProductCategory, ProductsContextType } from "../types";
 import { ProductsContext } from "../ProductsContext";
 

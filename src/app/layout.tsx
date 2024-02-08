@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import { DEFAULT_LOCALE } from "@/src/middleware";
-import "./globals.css";
 import { Bebas_Neue } from "next/font/google";
+import { DEFAULT_LOCALE } from "@/src/middleware";
+
 import { ProductsProvider } from "./[lang]/ProductsContext";
 import Header from "./[lang]/components/Header";
 import Footer from "./[lang]/components/Footer";
+import "./globals.css";
 
 const roboto = Bebas_Neue({
   weight: "400",

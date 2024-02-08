@@ -1,7 +1,9 @@
 import React, { FC } from "react";
 import Link from "next/link";
+
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import { locale } from "@/locales";
+
 import CustomLi from "./CustomLi";
 
 const Nav: FC<{ lang: string; isShopPage: boolean }> = ({

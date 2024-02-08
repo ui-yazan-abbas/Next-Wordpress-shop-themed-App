@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
+import { match as matchLocale } from "@formatjs/intl-localematcher";
 
 export enum LocalesLanguage {
   EN = "en",

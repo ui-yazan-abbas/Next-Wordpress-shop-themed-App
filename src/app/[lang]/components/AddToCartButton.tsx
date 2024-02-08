@@ -1,8 +1,9 @@
 "use client";
 import React, { FC, useContext } from "react";
-import CounterButton from "./CounterButton";
+
 import { Product, ProductsContextType } from "../types";
 import { ProductsContext } from "../ProductsContext";
+import CounterButton from "./CounterButton";
 
 const AddToCartButton: FC<{ product: Product; lang: string }> = ({
   product,

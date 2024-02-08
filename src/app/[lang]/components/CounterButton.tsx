@@ -1,4 +1,5 @@
 import React, { FC, useContext } from "react";
+
 import { ProductsContextType } from "../types";
 import { ProductsContext } from "../ProductsContext";
 

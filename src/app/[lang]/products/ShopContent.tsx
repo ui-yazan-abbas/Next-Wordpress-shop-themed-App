@@ -1,4 +1,5 @@
 import React from "react";
+
 import CategoryFilter from "../components/CategoryFilter";
 import Gallery from "../components/Gallery";
 

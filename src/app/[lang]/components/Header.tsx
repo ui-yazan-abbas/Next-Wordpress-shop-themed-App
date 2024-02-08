@@ -2,10 +2,11 @@
 import { FC } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+
 import { DEFAULT_LOCALE } from "@/src/middleware";
+import { links } from "../constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";
-import { links } from "../constants";
 import CartComponent from "./CartComponent";
 
 const Header: FC<{ lang: string }> = ({ lang = DEFAULT_LOCALE }) => {

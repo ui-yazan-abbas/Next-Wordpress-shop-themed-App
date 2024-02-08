@@ -1,8 +1,10 @@
 import React, { FC, useContext } from "react";
-import CartIcon from "./CartIcon";
-import CartPopup from "./CartPopup";
+
 import { ProductsContextType } from "../types";
 import { ProductsContext } from "../ProductsContext";
+
+import CartIcon from "./CartIcon";
+import CartPopup from "./CartPopup";
 
 const CartComponent: FC<{ lang: string }> = ({ lang }) => {
   const { isShowCart, setIsShowCart } =

@@ -1,9 +1,11 @@
 import React, { FC } from "react";
-import AddToCartSection from "./AddToCartSection";
-import ReviewsSection from "./ReviewsSection";
 import { notFound } from "next/navigation";
 import { Metadata, ResolvingMetadata } from "next";
+
 import { fetchProductById } from "@/utils";
+
+import ReviewsSection from "./ReviewsSection";
+import AddToCartSection from "./AddToCartSection";
 
 export async function generateMetadata(
   {

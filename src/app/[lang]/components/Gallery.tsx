@@ -1,8 +1,9 @@
 "use client";
 import React, { useContext, useMemo } from "react";
+
 import { ProductsContext } from "../ProductsContext";
-import Card from "./Card";
 import { Product, ProductCategory, ProductsContextType } from "../types";
+import Card from "./Card";
 
 const Gallery = () => {
   const {
