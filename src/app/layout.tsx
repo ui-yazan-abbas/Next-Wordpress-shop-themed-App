@@ -13,7 +13,7 @@ const roboto = Bebas_Neue({
 
 const { NEXT_PUBLIC_VERCEL_URL, SITE_NAME } = process.env;
 const baseUrl = NEXT_PUBLIC_VERCEL_URL
-  ? NEXT_PUBLIC_VERCEL_URL
+  ? `https://${NEXT_PUBLIC_VERCEL_URL}`
   : "http://localhost:3000";
 
 export const metadata = {

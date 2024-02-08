@@ -1,7 +1,7 @@
 "use client";
 import React, { FC, PropsWithChildren, useEffect, useState } from "react";
 import { Product, ProductCategory, ProductsContextType } from "./types";
-import { fetchProducts } from "./utils";
+import { fetchProducts } from "@/utils";
 import { usePathname } from "next/navigation";
 
 export const initialSettings = {

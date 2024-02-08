@@ -1,6 +1,6 @@
 "use client";
 import React, { FC, useEffect, useState } from "react";
-import { fetchProductById } from "../../utils";
+import { fetchProductById } from "@/utils";
 import ProductCard from "../../components/ProductCard";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import ProductPageNav from "../../components/ProductPageNav";

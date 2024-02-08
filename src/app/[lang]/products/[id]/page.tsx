@@ -3,16 +3,7 @@ import AddToCartSection from "./AddToCartSection";
 import ReviewsSection from "./ReviewsSection";
 import { notFound } from "next/navigation";
 import { Metadata, ResolvingMetadata } from "next";
-
-async function fetchProductById(id: string) {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_URL_PREFIX}/api/products/${id}`,
-    {
-      cache: "no-store",
-    }
-  );
-  return res.json();
-}
+import { fetchProductById } from "@/utils";
 
 export async function generateMetadata(
   {

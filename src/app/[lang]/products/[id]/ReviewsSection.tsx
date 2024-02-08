@@ -1,6 +1,6 @@
 "use client";
 import React, { FC, useEffect, useState } from "react";
-import { fetchProductById } from "../../utils";
+import { fetchProductById } from "@/utils";
 import { DEFAULT_PRODUCT } from "../../constants";
 import UnderLinedButton from "../../components/UnderLinedButton";
 import { Product, Review } from "../../types";
