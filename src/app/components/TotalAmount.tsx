@@ -2,8 +2,8 @@ import React, { FC, useContext, useMemo } from "react";
 import Link from "next/link";
 
 import { ProductsContextType } from "@/src/types";
-import { calculateTotalAmount } from "../products/utils";
-import { ProductsContext } from "../ProductsContext";
+import { calculateTotalAmount } from "@/src/app/[lang]/products/utils";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const TotalAmount: FC = () => {
   const { setIsShowCart, cartProducts = [] } =

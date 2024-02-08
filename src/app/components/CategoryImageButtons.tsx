@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 
 import { LINKS } from "@/src/constants";
-import { ComponentWithBrandProductsProps } from "../../../types";
+import { ComponentWithBrandProductsProps } from "@/src/types";
 import CategoryImageButton from "./CategoryImageButton";
 
 const CategoryImageButtons: FC<ComponentWithBrandProductsProps> = ({

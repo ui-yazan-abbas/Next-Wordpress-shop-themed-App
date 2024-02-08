@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { ProductsContextType } from "@/src/types";
 import { LINKS } from "@/src/constants";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 import TotalAmount from "./TotalAmount";
 import CartHeader from "./CartHeader";

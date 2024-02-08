@@ -1,9 +1,9 @@
 "use client";
 import React, { FC, useState } from "react";
 
-import UnderLinedButton from "../../components/UnderLinedButton";
+import UnderLinedButton from "@/src/app/components/UnderLinedButton";
 import { Product, Review } from "@/src/types";
-import ReviewCard from "../../components/ReviewCard";
+import ReviewCard from "@/src/app/components/ReviewCard";
 
 const ReviewsSection: FC<{ product: Product; lang: string }> = ({
   product,

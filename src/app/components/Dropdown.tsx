@@ -5,7 +5,7 @@ import { DEFAULT_LOCALE, LOCALES } from "@/src/middleware";
 import { locale } from "@/locales";
 
 import { ProductsContextType } from "@/src/types";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({
   lang = DEFAULT_LOCALE,

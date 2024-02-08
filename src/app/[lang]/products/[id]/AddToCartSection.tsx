@@ -2,12 +2,12 @@ import React, { FC } from "react";
 
 import { DEFAULT_LOCALE } from "@/src/middleware";
 
-import ProductPageNav from "../../components/ProductPageNav";
-import ShareProduct from "../../components/ShareProduct";
+import ProductPageNav from "@/src/app/components/ProductPageNav";
+import ShareProduct from "@/src/app/components/ShareProduct";
 import { Product, ProductCategory, Review } from "@/src/types";
-import AddToCartButton from "../../components/AddToCartButton";
-import ProductInfo from "../../components/ProductInfo";
-import ProductCard from "../../components/ProductCard";
+import AddToCartButton from "@/src/app/components/AddToCartButton";
+import ProductInfo from "@/src/app/components/ProductInfo";
+import ProductCard from "@/src/app/components/ProductCard";
 
 const AddToCartSection: FC<{ product: Product; lang: string }> = ({
   product,

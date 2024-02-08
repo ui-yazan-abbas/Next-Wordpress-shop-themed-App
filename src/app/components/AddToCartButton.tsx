@@ -3,7 +3,7 @@ import React, { FC, useCallback, useContext } from "react";
 
 import { Product, ProductsContextType } from "@/src/types";
 import { DEFAULT_PRODUCT_COUNT } from "@/src/constants";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 import CounterButton from "./CounterButton";
 
 const AddToCartButton: FC<{ product: Product; lang: string }> = ({

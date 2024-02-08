@@ -2,7 +2,7 @@ import React, { FC, useContext } from "react";
 import Image from "next/image";
 
 import { ProductCategory, ProductsContextType } from "@/src/types";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const CategoryImageButton: FC<{ imgSrc: string; label: ProductCategory }> = ({
   imgSrc,

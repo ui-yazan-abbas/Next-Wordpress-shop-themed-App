@@ -1,7 +1,7 @@
 import React, { FC, useContext } from "react";
 
 import { ProductsContextType } from "@/src/types";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 import CartProductCard from "./CartProductCard";
 
 const CartProducts: FC = () => {

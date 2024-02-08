@@ -6,8 +6,8 @@ import {
   ProductCategory,
   ProductsContextType,
 } from "@/src/types";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 import Card from "./Card";
-import { ProductsContext } from "../ProductsContext";
 
 const Gallery: FC<ComponentWithBrandProductsProps> = ({
   mensProducts = [],

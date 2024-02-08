@@ -2,9 +2,9 @@ import { FC } from "react";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import { fetchProducts } from "@/src/utils";
 
-import HomeTopSection from "./components/HomeTopSection";
-import HomeMidSection from "./components/HomeMidSection";
-import HomeBottomSection from "./components/HomeBottomSection";
+import HomeTopSection from "@/src/app/components/HomeTopSection";
+import HomeMidSection from "@/src/app/components/HomeMidSection";
+import HomeBottomSection from "@/src/app/components/HomeBottomSection";
 
 const Home: FC<{ params: { lang: string } }> = async ({
   params: { lang = DEFAULT_LOCALE },

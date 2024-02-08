@@ -1,7 +1,7 @@
 import React, { FC, useContext } from "react";
 
 import { ProductCategory, ProductsContextType } from "@/src/types";
-import { ProductsContext } from "../ProductsContext";
+import { ProductsContext } from "@/src/app/[lang]/ProductsContext";
 
 const CategoryButton: FC<{ itemsCount: number; category: ProductCategory }> = ({
   itemsCount,

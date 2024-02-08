@@ -1,9 +1,9 @@
 import { Bebas_Neue } from "next/font/google";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 
-import { ProductsProvider } from "./[lang]/ProductsContext";
-import Header from "./[lang]/components/Header";
-import Footer from "./[lang]/components/Footer";
+import { ProductsProvider } from "@/src/app/[lang]/ProductsContext";
+import Header from "@/src/app/components/Header";
+import Footer from "@/src/app/components/Footer";
 import "./globals.css";
 
 const roboto = Bebas_Neue({

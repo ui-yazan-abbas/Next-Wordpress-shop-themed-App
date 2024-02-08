@@ -2,8 +2,8 @@
 import React, { FC } from "react";
 
 import { ComponentWithBrandProductsProps } from "@/src/types";
-import CategoryFilter from "../components/CategoryFilter";
-import Gallery from "../components/Gallery";
+import CategoryFilter from "@/src/app/components/CategoryFilter";
+import Gallery from "@/src/app/components/Gallery";
 
 const ShopContent: FC<ComponentWithBrandProductsProps> = ({
   mensProducts = [],

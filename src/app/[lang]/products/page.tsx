@@ -3,8 +3,8 @@ import { locale } from "@/locales";
 import { DEFAULT_LOCALE } from "@/src/middleware";
 import { fetchProducts } from "@/src/utils";
 
-import CategoryImageButtons from "../components/CategoryImageButtons";
-import ShopNav from "../components/ShopNav";
+import CategoryImageButtons from "@/src/app/components/CategoryImageButtons";
+import ShopNav from "@/src/app/components/ShopNav";
 import ShopContent from "./ShopContent";
 
 export const metadata = {
