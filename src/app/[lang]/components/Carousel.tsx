@@ -3,7 +3,7 @@ import { FC } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { Product, sportsWearProducts } from "../types";
+import { Product, sportsWearProducts } from "@/src/types";
 import Card from "./Card";
 
 const RESPONSIVE = {

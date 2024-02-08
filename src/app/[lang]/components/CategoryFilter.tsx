@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { ComponentWithBrandProductsProps } from "../types";
+import { ComponentWithBrandProductsProps } from "@/src/types";
 import CategoryButton from "./CategoryButton";
 
 const CategoryFilter: FC<ComponentWithBrandProductsProps> = ({

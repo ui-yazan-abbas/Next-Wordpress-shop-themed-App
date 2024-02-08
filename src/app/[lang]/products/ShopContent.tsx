@@ -1,9 +1,9 @@
 "use client";
 import React, { FC } from "react";
 
+import { ComponentWithBrandProductsProps } from "@/src/types";
 import CategoryFilter from "../components/CategoryFilter";
 import Gallery from "../components/Gallery";
-import { ComponentWithBrandProductsProps } from "../types";
 
 const ShopContent: FC<ComponentWithBrandProductsProps> = ({
   mensProducts = [],

@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { LINKS } from "../constants";
+import { LINKS } from "@/src/constants";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 
 const HomeMidSection: FC<{ lang: string }> = ({ lang }) => (

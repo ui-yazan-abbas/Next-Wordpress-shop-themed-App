@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { ProductCategory } from "../types";
+import { ProductCategory } from "@/src/types";
 import ShareLinks from "./ShareLinks";
 
 const ShareProduct: FC<{ category: ProductCategory; lang: string }> = ({

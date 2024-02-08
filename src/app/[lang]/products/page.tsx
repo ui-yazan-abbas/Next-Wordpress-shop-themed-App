@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { locale } from "@/locales";
 import { DEFAULT_LOCALE } from "@/src/middleware";
-import { fetchProducts } from "@/utils";
+import { fetchProducts } from "@/src/utils";
 
 import CategoryImageButtons from "../components/CategoryImageButtons";
 import ShopNav from "../components/ShopNav";

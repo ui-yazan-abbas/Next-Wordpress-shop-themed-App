@@ -5,7 +5,7 @@ import {
   Product,
   ProductCategory,
   ProductsContextType,
-} from "../types";
+} from "@/src/types";
 import Card from "./Card";
 import { ProductsContext } from "../ProductsContext";
 

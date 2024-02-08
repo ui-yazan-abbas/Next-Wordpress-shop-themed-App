@@ -2,8 +2,8 @@ import React, { FC } from "react";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { LINKS } from "../constants";
-import { sportsWearProducts } from "../types";
+import { LINKS } from "@/src/constants";
+import { sportsWearProducts } from "@/src/types";
 import ZoomOnHoverImage from "./ZoomOnHoverImage";
 import CarouselComponent from "./Carousel";
 

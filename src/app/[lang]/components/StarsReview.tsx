@@ -1,7 +1,7 @@
 import { FaStar } from "react-icons/fa";
 import React, { FC } from "react";
 
-import { Review } from "../types";
+import { Review } from "@/src/types";
 
 const StarsReview: FC<{ reviews: Review[] }> = ({ reviews }) => (
   <div className="flex flex-row">

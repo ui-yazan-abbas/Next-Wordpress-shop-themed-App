@@ -2,9 +2,8 @@ import React, { FC } from "react";
 import { notFound } from "next/navigation";
 import { Metadata, ResolvingMetadata } from "next";
 
-import { fetchProductById } from "@/utils";
-
-import { Product } from "../../types";
+import { fetchProductById } from "@/src/utils";
+import { Product } from "@/src/types";
 import ReviewsSection from "./ReviewsSection";
 import AddToCartSection from "./AddToCartSection";
 

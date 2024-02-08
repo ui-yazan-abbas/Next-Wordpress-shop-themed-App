@@ -2,7 +2,8 @@
 import React, { FC, PropsWithChildren, useState } from "react";
 import { usePathname } from "next/navigation";
 
-import { Product, ProductCategory, ProductsContextType } from "./types";
+import { Product, ProductCategory, ProductsContextType } from "@/src/types";
+import { DEFAULT_PRODUCT_COUNT } from "@/src/constants";
 
 export const initialSettings = {
   cartProducts: [],
@@ -21,7 +22,7 @@ export const ProductsProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
-  const [productCount, setProductCount] = useState(1);
+  const [productCount, setProductCount] = useState(DEFAULT_PRODUCT_COUNT);
 
   return (
     <ProductsContext.Provider

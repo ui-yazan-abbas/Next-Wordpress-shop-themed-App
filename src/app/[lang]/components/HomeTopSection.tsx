@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { locale } from "@/locales";
-import { LINKS } from "../constants";
+import { LINKS } from "@/src/constants";
 
 const HomeTopSection: FC<{ lang: string }> = ({ lang }) => (
   <div className="relative w-full">

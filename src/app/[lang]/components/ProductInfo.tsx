@@ -1,7 +1,7 @@
 "use client";
 import React, { FC } from "react";
 
-import { Review } from "../types";
+import { Review } from "@/src/types";
 import StarsReview from "./StarsReview";
 
 const scrollToBottomAndClick = () => {

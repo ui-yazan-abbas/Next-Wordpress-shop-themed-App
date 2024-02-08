@@ -1,8 +1,8 @@
 "use client";
 import React, { FC } from "react";
 
-import { LINKS } from "../constants";
-import { ComponentWithBrandProductsProps } from "../types";
+import { LINKS } from "@/src/constants";
+import { ComponentWithBrandProductsProps } from "../../../types";
 import CategoryImageButton from "./CategoryImageButton";
 
 const CategoryImageButtons: FC<ComponentWithBrandProductsProps> = ({

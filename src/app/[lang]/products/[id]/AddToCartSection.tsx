@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE } from "@/src/middleware";
 
 import ProductPageNav from "../../components/ProductPageNav";
 import ShareProduct from "../../components/ShareProduct";
-import { Product, ProductCategory, Review } from "../../types";
+import { Product, ProductCategory, Review } from "@/src/types";
 import AddToCartButton from "../../components/AddToCartButton";
 import ProductInfo from "../../components/ProductInfo";
 import ProductCard from "../../components/ProductCard";

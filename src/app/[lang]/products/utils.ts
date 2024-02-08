@@ -1,4 +1,4 @@
-import { Product } from "../types";
+import { Product } from "@/src/types";
 
 export const getPriceValue = (price: string) =>
   parseFloat(price.replace("$", ""));

@@ -1,9 +1,9 @@
 import React, { FC, useContext } from "react";
 import Image from "next/image";
 
-import { ProductsContextType } from "../types";
+import { ProductsContextType } from "@/src/types";
+import { LINKS } from "@/src/constants";
 import { ProductsContext } from "../ProductsContext";
-import { LINKS } from "../constants";
 
 import TotalAmount from "./TotalAmount";
 import CartHeader from "./CartHeader";

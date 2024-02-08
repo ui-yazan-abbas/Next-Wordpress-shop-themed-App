@@ -2,7 +2,7 @@
 import React, { FC, useState } from "react";
 
 import UnderLinedButton from "../../components/UnderLinedButton";
-import { Product, Review } from "../../types";
+import { Product, Review } from "@/src/types";
 import ReviewCard from "../../components/ReviewCard";
 
 const ReviewsSection: FC<{ product: Product; lang: string }> = ({

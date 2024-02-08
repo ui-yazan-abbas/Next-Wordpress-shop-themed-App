@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 
-import { Product } from "../types";
+import { Product } from "@/src/types";
 
 const CartProductCard: FC<{ cartProduct: Product }> = ({ cartProduct }) => (
   <li className="flex p-6">

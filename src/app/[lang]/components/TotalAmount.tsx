@@ -1,7 +1,7 @@
 import React, { FC, useContext, useMemo } from "react";
 import Link from "next/link";
 
-import { ProductsContextType } from "../types";
+import { ProductsContextType } from "@/src/types";
 import { calculateTotalAmount } from "../products/utils";
 import { ProductsContext } from "../ProductsContext";
 

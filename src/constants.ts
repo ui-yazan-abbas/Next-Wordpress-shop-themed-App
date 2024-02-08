@@ -34,4 +34,4 @@ export const DEFAULT_PRODUCT = {
   qty: 0,
 };
 
-const DEFAULT_CART_PRODUCT = [{ name: "", id: "", image: "", quantity: "" }];
+export const DEFAULT_PRODUCT_COUNT = 1;

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { DEFAULT_LOCALE, LOCALES } from "@/src/middleware";
 import { locale } from "@/locales";
 
-import { ProductsContextType } from "../types";
+import { ProductsContextType } from "@/src/types";
 import { ProductsContext } from "../ProductsContext";
 
 const Dropdown: FC<{ lang: string; isShopPage: boolean }> = ({

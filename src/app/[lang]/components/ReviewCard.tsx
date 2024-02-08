@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { Review } from "../types";
+import { Review } from "@/src/types";
 import StarsReview from "./StarsReview";
 
 const ReviewCard: FC<{ reviews: Review[] }> = ({ reviews }) =>

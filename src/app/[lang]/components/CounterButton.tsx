@@ -1,6 +1,6 @@
 import React, { FC, useContext } from "react";
 
-import { ProductsContextType } from "../types";
+import { ProductsContextType } from "@/src/types";
 import { ProductsContext } from "../ProductsContext";
 
 const CounterButton: FC = () => {

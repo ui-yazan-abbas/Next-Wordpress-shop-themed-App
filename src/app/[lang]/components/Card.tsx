@@ -3,7 +3,7 @@ import React, { FC, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { Review } from "../types";
+import { Review } from "@/src/types";
 import StarsReview from "./StarsReview";
 
 const Card: FC<{

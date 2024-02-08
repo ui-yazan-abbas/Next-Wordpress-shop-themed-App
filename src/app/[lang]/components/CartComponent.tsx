@@ -1,8 +1,7 @@
 import React, { FC, useContext } from "react";
 
-import { ProductsContextType } from "../types";
+import { ProductsContextType } from "@/src/types";
 import { ProductsContext } from "../ProductsContext";
-
 import CartIcon from "./CartIcon";
 import CartPopup from "./CartPopup";
 
