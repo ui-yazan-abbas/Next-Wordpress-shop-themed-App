@@ -11,9 +11,13 @@ const roboto = Bebas_Neue({
   subsets: ["latin"],
 });
 
-const { SITE_NAME } = process.env;
+const { NEXT_PUBLIC_URL_PREFIX, SITE_NAME } = process.env;
+const baseUrl = NEXT_PUBLIC_URL_PREFIX
+  ? `${NEXT_PUBLIC_URL_PREFIX}`
+  : "http://localhost:3000";
 
 export const metadata = {
+  metadataBase: new URL(baseUrl),
   title: {
     default: SITE_NAME!,
     template: `%s | ${SITE_NAME}`,

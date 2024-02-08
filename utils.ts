@@ -4,7 +4,7 @@ export const fetchProducts = cache(async () => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_URL_PREFIX}/api/products`,
     {
-      method: "GET",
+      cache: "no-store",
     }
   );
 
@@ -15,7 +15,7 @@ export const fetchProductById = cache(async (id: string) => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_URL_PREFIX}/api/products/${id}`,
     {
-      method: "GET",
+      cache: "no-store",
     }
   );
   return res.json();
