@@ -12,15 +12,15 @@ const HomeBottomSection: FC<{
   sportswearProducts: sportsWearProducts;
 }> = ({ lang, sportswearProducts }) => (
   <div className="flex flex-col md:flex-row w-full h-full">
-    <div className="sm:w-[850px] sm:mt-[50px]">
+    <div className="sm:w-full sm:mt-[50px]">
       <CarouselComponent sportswearProducts={sportswearProducts} />
     </div>
-    <div className="sm:absolute w2/5 right-0">
+    <div className="sm:absolute bottom-14 w2/5 right-0">
       <div className="relative">
         <ZoomOnHoverImage
           src={LINKS.mainPageMenWearImage}
           alt="Kid playing basket ball ad"
-          width={620}
+          width={580}
           height={300}
         />
         <div className="absolute flex flex-col gap-4 left-[60px] top-[200px] sm:left-[100px] sm:top-[300px]">

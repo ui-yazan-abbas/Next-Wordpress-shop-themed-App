@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 
+import { LINKS } from "@/src/constants";
 import ShareLink from "./ShareLink";
 import FacebookIcon from "./FacebookIcon";
 import TwitterIcon from "./TwitterIcon";
 import InstagramIcon from "./InstagramIcon";
-import { LINKS } from "@/src/constants";
 
 const ShareLinks: FC<{ isProductPage?: boolean }> = ({
   isProductPage = false,

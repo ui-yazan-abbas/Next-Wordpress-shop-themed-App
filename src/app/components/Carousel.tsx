@@ -7,13 +7,23 @@ import { Product, sportsWearProducts } from "@/src/types";
 import Card from "./Card";
 
 const RESPONSIVE = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 2,
+  desktop_xl: {
+    breakpoint: { max: 3000, min: 2024 },
+    items: 6,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  desktop_l: {
+    breakpoint: { max: 2024, min: 1648 },
+    items: 4,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  desktop_small: {
+    breakpoint: { max: 1648, min: 1206 },
+    items: 3,
     slidesToSlide: 2, // optional, default to 1.
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1106, min: 464 },
     items: 2,
     slidesToSlide: 2, // optional, default to 1.
   },
