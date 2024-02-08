@@ -5,6 +5,11 @@ export enum ProductCategory {
   SPORTSWEAR = "Sportswear",
 }
 
+export enum LocalesLanguage {
+  EN = "en",
+  AR = "ar",
+}
+
 export type Review = {
   stars: number;
   review: string;

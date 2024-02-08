@@ -1,13 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Negotiator from "negotiator";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
-
-export enum LocalesLanguage {
-  EN = "en",
-  AR = "ar",
-}
-export const DEFAULT_LOCALE = LocalesLanguage.EN;
-export const LOCALES = [LocalesLanguage.EN, LocalesLanguage.AR];
+import { DEFAULT_LOCALE, LOCALES } from "./constants";
 
 function getLocale(request: Request): string {
   const headers = new Headers(request.headers);

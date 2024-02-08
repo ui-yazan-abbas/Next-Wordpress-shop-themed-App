@@ -3,7 +3,7 @@ import { FC } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 import { LINKS } from "@/src/constants";
 import Nav from "./Nav";
 import Dropdown from "./Dropdown";

@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 
 import ProductPageNav from "@/src/app/components/ProductPageNav";
 import ShareProduct from "@/src/app/components/ShareProduct";

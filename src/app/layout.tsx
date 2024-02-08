@@ -1,5 +1,5 @@
 import { Bebas_Neue } from "next/font/google";
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 
 import { ProductsProvider } from "@/src/app/[lang]/ProductsContext";
 import Header from "@/src/app/components/Header";

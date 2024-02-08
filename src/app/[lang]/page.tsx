@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 import { fetchProducts } from "@/src/utils";
 
 import HomeTopSection from "@/src/app/components/HomeTopSection";

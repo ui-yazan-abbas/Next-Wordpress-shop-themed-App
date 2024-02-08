@@ -1,7 +1,7 @@
 import React, { FC, useContext } from "react";
 import Link from "next/link";
 
-import { DEFAULT_LOCALE, LOCALES } from "@/src/middleware";
+import { DEFAULT_LOCALE, LOCALES } from "@/src/constants";
 import { locale } from "@/locales";
 
 import { ProductsContextType } from "@/src/types";

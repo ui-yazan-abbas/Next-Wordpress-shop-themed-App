@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { locale } from "@/locales";
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 import { fetchProducts } from "@/src/utils";
 
 import CategoryImageButtons from "@/src/app/components/CategoryImageButtons";

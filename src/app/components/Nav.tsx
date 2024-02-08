@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Link from "next/link";
 
-import { DEFAULT_LOCALE } from "@/src/middleware";
+import { DEFAULT_LOCALE } from "@/src/constants";
 import { locale } from "@/locales";
 
 import CustomLi from "./CustomLi";

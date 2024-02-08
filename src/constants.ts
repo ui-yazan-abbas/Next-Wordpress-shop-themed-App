@@ -1,4 +1,4 @@
-import { ProductCategory } from "./types";
+import { LocalesLanguage, ProductCategory } from "./types";
 
 export const LINKS = {
   brandIconDark:
@@ -35,3 +35,5 @@ export const DEFAULT_PRODUCT = {
 };
 
 export const DEFAULT_PRODUCT_COUNT = 1;
+export const DEFAULT_LOCALE = LocalesLanguage.EN;
+export const LOCALES = [LocalesLanguage.EN, LocalesLanguage.AR];
