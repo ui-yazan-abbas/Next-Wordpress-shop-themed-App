@@ -9,10 +9,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+add .env file with 
+```bash
+NEXT_PUBLIC_URL_PREFIX=http://localhost:3000
+```
 
 First, run the development server:
 
 ```bash
+npm i
+or 
+npm i --force
+
+then
+
 npm run dev
 # or
 yarn dev
