@@ -25,22 +25,22 @@ const CategoryFilter: FC<ComponentWithBrandProductsProps> = ({
       <CategoryButton
         itemsCount={mensProducts.length}
         category={mensProducts?.[0]?.category}
-        traslatedLabel={locale[lang].men}
+        translatedLabel={locale[lang].men}
       />
       <CategoryButton
         itemsCount={footwearProducts.length}
         category={footwearProducts?.[0]?.category}
-        traslatedLabel={locale[lang].footwear}
+        translatedLabel={locale[lang].footwear}
       />
       <CategoryButton
         itemsCount={sportswearProducts.length}
         category={sportswearProducts?.[0]?.category}
-        traslatedLabel={locale[lang].sport}
+        translatedLabel={locale[lang].sport}
       />
       <CategoryButton
         itemsCount={womensProducts.length}
         category={womensProducts?.[0]?.category}
-        traslatedLabel={locale[lang].women}
+        translatedLabel={locale[lang].women}
       />
     </div>
   );
